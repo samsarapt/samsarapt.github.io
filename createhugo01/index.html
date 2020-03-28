@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Hugo零基础搭建上篇--Demo发布 | pt&#39;s blog</title>
+        <meta name="Description" content="Chenpt的博客"><meta property="og:title" content="Hugo零基础搭建上篇--Demo发布" />
+<meta property="og:description" content="0x00 前言 本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ptchen.online/createhugo01/" />
+<meta property="article:published_time" content="2020-03-19T12:18:44+08:00" />
+<meta property="article:modified_time" content="2020-03-19T12:18:44+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo零基础搭建上篇--Demo发布"/>
+<meta name="twitter:description" content="0x00 前言 本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="canonical" href="https://ptchen.online/createhugo01/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<link href='http://cdn.repository.webfont.com/webfonts/nomal/136905/46972/5e7cc9daf629d806b0e269e9.css' rel='stylesheet' type='text/css' /><link rel="next" href="https://ptchen.online/createhugo02/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Hugo零基础搭建上篇--Demo发布",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/ptchen.online\/createhugo01\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/ptchen.online\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","keywords": "Hugo","wordcount":  3395 ,
+        "url": "https:\/\/ptchen.online\/createhugo01\/","datePublished": "2020-03-19","dateModified": "2020-03-19","publisher": {
+                "@type": "Organization",
+                "name": "ptchen",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/ptchen.online\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Chenpt "
+            },"description": ""
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = 'dark' === 'dark';} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/">pt&#39;s blog</a>
+        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">Posts</a><a class="menu-item" href="/tags/" rel="noopener noreffer">Tags</a><a class="menu-item" href="/categories/" rel="noopener noreffer">Categories</a><a class="menu-item" href="/changelog" rel="noopener noreffer">Changelog</a><a class="menu-item" href="/about" rel="noopener noreffer">About</a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title">
+                <a href="/">pt&#39;s blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">Posts</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">Tags</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">Categories</a><a class="menu-item" href="/changelog" title="" rel="noopener noreffer">Changelog</a><a class="menu-item" href="/about" title="" rel="noopener noreffer">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+
+<script>
+    window.desktopHeaderMode = "fixed";
+    window.mobileHeaderMode = "fixed";
+</script>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Hugo零基础搭建上篇--Demo发布</h1><div class="post-meta">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-03-19>2020-03-19<a>   </a></time>&nbsp;<span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author">Chenpt </a>
+</span>&nbsp;
+                    <span class="post-category">收录于<a href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB">
+                                <i class="far fa-folder fa-fw"></i>经验分享
+                            </a></span></div>
+            <div class="post-meta-line">
+                <i class="fas fa-pencil-alt fa-fw"></i>约 3395 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>预计阅读 7 分钟&nbsp;
+				<i class="fa fa-mouse-pointer fa-fw"></i>
+					<span id="/createhugo01/" class="leancloud_visitors" data-flag-title="Hugo零基础搭建上篇--Demo发布">
+						<span class="post-meta-item-text">已被点击 </span>
+						<span class="leancloud-visitors-count"></span>
+						<span class="post-meta-item-text">次 </span>
+						<p></p>
+					</span></div>
+        </div><div class="toc" id="toc-auto">
+                <h2 class="toc-title">CONTENTS</h2>
+                <div class="toc-content always-active" id="toc-content-auto"></div>
+            </div>
+            <div class="toc" id="toc-static">
+                <details>
+                    <summary>
+                        <div class="toc-title">
+                            <span>CONTENTS</span>
+                            <span><i class="details icon fas fa-angle-down"></i></span>
+                        </div>
+                    </summary>
+                    <div class="toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#0x00-前言">0x00 前言</a>
+      <ul>
+        <li><a href="#hugo博客的优点">Hugo博客的优点</a></li>
+        <li><a href="#hugo博客的缺点">Hugo博客的缺点</a></li>
+      </ul>
+    </li>
+    <li><a href="#0x01-本地安装hugo">0x01 本地安装Hugo</a>
+      <ul>
+        <li><a href="#下载hugo">下载Hugo</a></li>
+        <li><a href="#安装hugo">安装Hugo</a></li>
+      </ul>
+    </li>
+    <li><a href="#0x02-本地安装git">0x02 本地安装Git</a></li>
+    <li><a href="#0x03-本地新建项目">0x03 本地新建项目</a>
+      <ul>
+        <li><a href="#新建项目">新建项目</a></li>
+        <li><a href="#安装主题">安装主题</a></li>
+        <li><a href="#配置主题">配置主题</a></li>
+      </ul>
+    </li>
+    <li><a href="#0x04-编辑文章">0x04 编辑文章</a>
+      <ul>
+        <li><a href="#安装typora">安装Typora</a></li>
+        <li><a href="#创建第一篇文章">创建第一篇文章</a></li>
+      </ul>
+    </li>
+    <li><a href="#0x05-调试hugo项目">0x05 调试Hugo项目</a>
+      <ul>
+        <li><a href="#正常情况">正常情况</a></li>
+        <li><a href="#意外情况">意外情况</a></li>
+      </ul>
+    </li>
+    <li><a href="#0x06-发布博客">0x06 发布博客</a>
+      <ul>
+        <li><a href="#创建github项目仓库">创建GitHub项目仓库</a></li>
+        <li><a href="#上传项目">上传项目</a></li>
+        <li><a href="#在线访问博客">在线访问博客</a></li>
+      </ul>
+    </li>
+    <li><a href="#0x07-总结">0x07 总结</a></li>
+  </ul>
+</nav></div>
+                </details>
+            </div><div class="content" id="content"><h2 id="0x00-前言">0x00 前言</h2>
+<p>本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你主要想了解关于博客设计方面的问题，本篇对你几乎毫无帮助2333。我也是最近闲的发慌才开始捣腾静态博客这块，关于博客的装修设计问题自己也还在摸索，过段时间研究的差不多了再考虑写点相关的教程吧。</p>
+<h3 id="hugo博客的优点">Hugo博客的优点</h3>
+<p>既然市面上有那么多现成的博客平台，为什么要花时间去研究Hugo之类的静态博客呢，个人认为主要有两个优点：</p>
+<ul>
+<li>
+<p>数据的安全：说到博客我就想起来已经挂掉的BlogBus，一声不吭说停服就停服，多少人的心血文章就这么没掉了，连个备份的机会都不给。所以对比与这些第三方博客平台，自己搭建博客最大的优点便是数据永远不会丢失。</p>
+</li>
+<li>
+<p>方便的样式客制化：大部分人都喜欢把博客改造成自己喜欢的风格，Hugo在这个方面做得其实和当年的QQ空间差不多，你只需稍微一丢丢的搜索能力和前端知识就可以完成大部分的样式改造。</p>
+</li>
+</ul>
+<h3 id="hugo博客的缺点">Hugo博客的缺点</h3>
+<p>Hugo的缺点也非常明显。首先就是搭建过程十分的劝退零计算机基础的朋友，看到代码就头疼完全不想继续操作。然后就是文章是用Markdown语法书写的，刚才开始的时候会有强烈的不适应感。</p>
+<h2 id="0x01-本地安装hugo">0x01 本地安装Hugo</h2>
+<h3 id="下载hugo">下载Hugo</h3>
+<p>打开Hugo的GitHub项目地址 。  <a href="https://github.com/gohugoio/hugo/releases" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%281%29.png,  1.5x,  2x"
+        data-src=""
+        alt="Hugo项目"
+        title="Hugo项目" /></p>
+<p>在页面中选择最上面的那个版本，点击hugo_版本号_Windows-32bit.zip  或者  hugo_版本号_Windows-64bit.zip进行下载，具体哪个看自己电脑的位数，现在基本都是64bit了。点击之后就会立刻开始下载，GitHub的下载速度有时候比较感人，耐心等等吧。</p>
+<h3 id="安装hugo">安装Hugo</h3>
+<p>打开我的电脑，在众多盘里面选择一个幸运盘打开，将Hugo安装进去，这里我选择了D盘。</p>
+<p>在D盘新建文件夹，命名为<strong>Hugo</strong>，打开刚建好的Hugo文件夹，再新建两个文件夹，一个叫<strong>bin</strong>，另一个叫<strong>Sites</strong>。解压刚才下好的zip文件，里面有3个文件，把<strong>hugo.exe</strong>复制到刚建好的<strong>bin</strong>文件夹内，整个安装过程结束。</p>
+<h2 id="0x02-本地安装git">0x02 本地安装Git</h2>
+<p>如果你不知道什么是Git，emmm那就不要管那么多了，下就是了。</p>
+<p>首先照例进入官网。<a href="https://git-scm.com/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%282%29.png,  1.5x,  2x"
+        data-src=""
+        alt="git官网"
+        title="git官网" /></p>
+<p>网页应该会自动识别你的系统和版本，直接点击页面中的  <strong>Download 版本号 for 系统名</strong>  下载就完事了。下载完成之后获得一个exe文件，双击打开，国际惯例除了指定安装目录之外无脑下一步就完事了。如果你非常在意细节，可以参考这篇文章。<a href="https://www.cnblogs.com/zzzxing/p/12515477.html" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<h2 id="0x03-本地新建项目">0x03 本地新建项目</h2>
+<h3 id="新建项目">新建项目</h3>
+<p>使用<kbd>Win</kbd>+<kbd>R</kbd>快捷键输入 <del>曹孟德</del> cmd后，进入命令提示符。当然如果你会用Git Bash的话，接下来的全部命令行操作用Git Bash也是可以的。输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">d:
+</code></pre></td></tr></table>
+</div>
+</div><p>进入D盘，再输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd Hugo/Sites
+</code></pre></td></tr></table>
+</div>
+</div><p>进入刚刚创建好的<strong>Sites</strong>文件夹，现在开始创建博客项目。输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new site mysite
+</code></pre></td></tr></table>
+</div>
+</div><p>没有出现错误的情况如下图所示</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%283%29.png,  1.5x,  2x"
+        data-src=""
+        alt="创建项目"
+        title="创建项目" /></p>
+<p>其中<strong>mysite</strong>可以换成你想要起的任何英文名字，我这里用的名字是<strong>blogtest</strong>，回车之后便可以在<strong>Sites</strong>文件夹内看到我们刚刚创建好的项目文件夹，打开结构如下。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%287%29.png,  1.5x,  2x"
+        data-src=""
+        alt="主题目录"
+        title="主题目录" /></p>
+<h3 id="安装主题">安装主题</h3>
+<p>首先你需要去商城挑选一个主题。<a href="https://themes.gohugo.io/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%284%29.png,  1.5x,  2x"
+        data-src=""
+        alt="主题详情页"
+        title="主题详情页" /></p>
+<p>看中哪个主题就直接点击进入详情页，点击<strong>Demo</strong>可以查看案例，对案例感觉满意就返回，点击<strong>Download</strong>即可进入该主题的GitHub仓库，在浏览器地址栏把这个地址复制下来。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%285%29.png,  1.5x,  2x"
+        data-src=""
+        alt="git地址"
+        title="git地址" /></p>
+<p>回到CMD，输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd blogtest/themes
+</code></pre></td></tr></table>
+</div>
+</div><p>进入项目文件夹内的主题文件夹，开始准备安装一个自己喜欢的主题。输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">git clone 你刚才复制的主题地址
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%286%29.png,  1.5x,  2x"
+        data-src=""
+        alt="下载主题"
+        title="下载主题" /></p>
+<p>没啥意外等进度条走完就行了，GitHub有时候会抽风出现403，多试几次就好了23333。安装之后themes文件内就多了一个你刚刚下好的主题文件夹，之后对于主题的所有修改都在这个主题文件夹里面完成。</p>
+<h3 id="配置主题">配置主题</h3>
+<p>打开主题文件夹，直接用搜索在里面找一个名为<strong>config.toml</strong>的文件，把它复制到你的博客项目的根目录下。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%288%29.png,  1.5x,  2x"
+        data-src=""
+        alt="搜索"
+        title="搜索" /></p>
+<p>根目录下有一个同名文件，直接替换掉就好了。如果你不是很热衷于魔改的话，到这里关于主题的配置就结束了，如果你想进行一些客制化，可以自行百度，hugo的缺点就是文档缺的厉害，只能参考别人的经验自己一点点摸索了。这里提供一份参考：<a href="https://dp2px.com/2019/09/04/hugo-config/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<h2 id="0x04-编辑文章">0x04 编辑文章</h2>
+<h3 id="安装typora">安装Typora</h3>
+<p>由于Hugo里面所有的文章都是Markdown语法写的，所以你需要一个趁手的Markdown编辑器，这里推荐使用Typora。</p>
+<p>国际惯例打开官网。<a href="https://www.typora.io/#windows" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<p>选择符合你系统位数的安装包下载，如果嫌弃官网慢可以自行寻找第三方提供的安装包，下载完成后依旧打开无脑点击下一步即可。</p>
+<h3 id="创建第一篇文章">创建第一篇文章</h3>
+<p>此时你的cmd应该在themes目录下，输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd ..
+</code></pre></td></tr></table>
+</div>
+</div><p>返回到自己的博客根目录下，输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new posts/first.md
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%289%29.png,  1.5x,  2x"
+        data-src=""
+        alt="创建文章"
+        title="创建文章" /></p>
+<p>创建Markdown文件成功之后，你会在自己博客项目的根目录下的<strong>content文件夹</strong>中发现多了一个<strong>posts文件夹</strong>，你刚才创建的Markdown文件就在里面。这就是你的第一篇博文了，用Typora打开这个md文件，你就可以开始在里面编辑内容了。我们先随便写点东西在里面方便本次测试的时候看效果。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%2810%29.png,  1.5x,  2x"
+        data-src=""
+        alt="md编写"
+        title="md编写" /></p>
+<p>这里有两点需要注意：</p>
+<ul>
+<li>
+<p>Markdown文件开头的  <strong>draft: true</strong>  这串字符表示你的这篇文章处于草稿状态，草稿状态下的文章是无法显示出来的，所以要将<strong>true</strong>改为<strong>false</strong>，才能将文章显示出来。</p>
+</li>
+<li>
+<p>Markdown文件开头另起一行加入  <strong>categories</strong>  标签可以给文章增加分类，用于在博客中归类展示。格式如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">categories : [“分类名字”]
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<p>关于如何正确编辑Markdown的格式，建议参考这篇。<a href="https://www.jianshu.com/p/ebe52d2d468f" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<h2 id="0x05-调试hugo项目">0x05 调试Hugo项目</h2>
+<h3 id="正常情况">正常情况</h3>
+<p>此时你的cmd应该在博客项目的根目录下，直接输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo server
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%2811%29.png,  1.5x,  2x"
+        data-src=""
+        alt="运行"
+        title="运行" /></p>
+<p>回车之后如果没有报错，打开浏览器输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">http://localhost:1313
+</code></pre></td></tr></table>
+</div>
+</div><p>即可进行对博客项目的本地预览，Hugo是支持实时更新的，所以你可以一边开着这个一边对主题文件进行魔改，方便实时查看变化。</p>
+<p>想停止调试在cmd界面按<kbd>Ctrl</kbd>+<kbd>C</kbd>即可。</p>
+<h3 id="意外情况">意外情况</h3>
+<p>极大部分情况是因为主题没有配置好的关系，建议详细阅读主题的安装文档，或者搜索使用同种主题的博主的文章进行解决。</p>
+<h2 id="0x06-发布博客">0x06 发布博客</h2>
+<p>一般情况下Hugo发布是用的是GitHub Pages，当然你也可以托管到其他平台，这里以GitHub Pages为例。</p>
+<h3 id="创建github项目仓库">创建GitHub项目仓库</h3>
+<p>如果你还没有GitHub的账户，当然是去注册一个。</p>
+<p>国际惯例打开官网。<a href="https://github.com/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%2812%29.png,  1.5x,  2x"
+        data-src=""
+        alt="创建第一步"
+        title="创建第一步" /></p>
+<p>登录之后点击右上角的头像左边的小加号，点击<strong>New repository</strong>，进入创建仓库页面。其中<strong>Repository name</strong>这一项的建议写法为：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">GitHub用户名.github.io
+</code></pre></td></tr></table>
+</div>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%2813%29.png,  1.5x,  2x"
+        data-src=""
+        alt="创建第二步"
+        title="创建第二步" /></p>
+<p>你的GitHub用户名就是左边<strong>Owner</strong>那栏里面的内容，然后权限选择<strong>Public</strong>，点击<strong>Create repository</strong>即可。</p>
+<p>页面跳转进入新建好的仓库界面，记录下这个仓库的地址。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="http://q7l2ql4vs.bkt.clouddn.com/createhugo01-%20%2814%29.png,  1.5x,  2x"
+        data-src=""
+        alt="创建第三步"
+        title="创建第三步" /></p>
+<h3 id="上传项目">上传项目</h3>
+<p>还记得前面安装的Git吗，接下来全靠它了。首先进入你的博客项目的根目录，在随便一个空白的地方点击右键，点击<strong>Git Bash Here</strong>进入Git的命令行窗口，输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo --theme=你的主题名字 --baseUrl=&#34;https://你刚才新建的github仓库的名字/&#34; --buildDrafts
+</code></pre></td></tr></table>
+</div>
+</div><p>成功后直接在Git命令行窗口<strong>依次</strong>输入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd public
+git init
+git add .
+git commit -m &#34;备注信息，写点啥都行,不能不写&#34;
+git remote add origin 你刚才复制的仓库地址
+git push -u origin master
+</code></pre></td></tr></table>
+</div>
+</div><p>一切顺利即可大功告成</p>
+<h3 id="在线访问博客">在线访问博客</h3>
+<p>打开浏览器，输入<strong>你刚才新建的GitHub仓库的名字</strong>，即<strong>GitHub用户名.github.io</strong>便可以在线看到自己的博客了。</p>
+<h2 id="0x07-总结">0x07 总结</h2>
+<p>一个Hugo的Demo上线基本就是这样一个流程，和普通的第三方博客平台进行对比，其实流程上都是有相似之处的。</p>
+<ul>
+<li>
+<p>第三方博客注册帐号 = Hugo环境搭建 + 新建项目</p>
+</li>
+<li>
+<p>第三方博客选择主题 = Git工具安装 + 下载GitHub上的主题 + 配置主题</p>
+</li>
+<li>
+<p>在第三方博客网页上写文章 = 使用Typora写文章</p>
+</li>
+<li>
+<p>第三方博客发表文章 = Hugo静态页面生成 +  推送Hugo静态页面到GitHub仓库</p>
+</li>
+<li>
+<p>第三方博客提供的网址访问 = GitHub Pages提供的网址访问</p>
+</li>
+</ul>
+<p>在整个过程中，非要说有点困难的地方，那就是Hugo主题的适配，你需要去了解一些配置文件里面每一项的含义，相对应的将里面的内容进行替换。这一步确实对0计算机基础的小白有一些不太友好，不过现在大部分好看的主题在搜索引擎上基本都可以查阅到相应的配置教程，所以只要你有心思认真研究个一两天基本都是可以搭建出令自己满意的博客的。</p>
+<p>下一篇文章将会简介给自己的Hugo博客更换域名、日常更新博客的操作流程和其他方面的一些小优化。</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>
+				
+                </span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+		
+		
+		
+		<div class="post-ds">
+			<input type="button" value="众筹植发费" id="rewardButton" class="ds-anniu" disable="enable" 
+			onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'};
+					this.value=this.value=='收起'?'打赏':'收起';">
+			</input>
+			<div id="QR" class="ds-qr" style="display: none;">
+				<div class="qr-img-all">
+					<a class="fancybox" rel="group">
+						<img class="qrimg" src="http://q7l2ql4vs.bkt.clouddn.com/wechatpay.png" alt="WeChat Pay">
+					</a>
+					<p>微信打赏</p>
+				</div>
+				<div class="qr-img-all">
+					<a class="fancybox" rel="group">
+						<img class="qrimg" src="http://q7l2ql4vs.bkt.clouddn.com/alipay.png" alt="Alipay">
+					</a>
+					<p>支付宝打赏</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="post-info-line">
+			<div class="post-info-md"></div>
+			
+			<div class="post-info-share">
+				<span>
+					<a>Share: </a><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://ptchen.online/createhugo01/" data-title="Hugo零基础搭建上篇--Demo发布" data-hashtags="Hugo"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://ptchen.online/createhugo01/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://ptchen.online/createhugo01/" data-title="Hugo零基础搭建上篇--Demo发布"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://ptchen.online/createhugo01/" data-title="Hugo零基础搭建上篇--Demo发布"><i class="fab fa-evernote fa-fw"></i></a></span>
+			</div>
+		</div>
+		
+    </div>
+
+    <div class="post-info-more">
+        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo">Hugo</a></section>
+        <section>
+            <span><a href="javascript:window.history.back();">back</a></span>&nbsp;|&nbsp;<span><a href="/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/createhugo02/" class="next" rel="next" title="Hugo零基础搭建下篇--优化与日常维护">Hugo零基础搭建下篇--优化与日常维护<i class="fas fa-angle-right fa-fw"></i></a></div>
+	
+	
+	
+</div>
+<div class="comment">
+			
+			 
+		<div id="vcomments"></div>
+		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+		<script src='http://q7l2ql4vs.bkt.clouddn.com/beta.Valine.min.js'></script>
+		<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+		<script src='http://q7l2ql4vs.bkt.clouddn.com/ValineWarn.js'></script>
+		<script type="text/javascript">
+			new Valine({
+				el: '#vcomments' ,
+				appId: 'Vvxkzsy7xlmb1yxLqrIy7vtp-gzGzoHsz',
+				appKey: '0AIdWvAiQgnU7fz7WzEHtMOt',
+				notify:  false ,
+				verify:  false ,
+				avatar:'hide',
+				placeholder: 'Tip: 昵称和留言内容不能为空，如填写博客地址请加http(s):\/\/',
+				visitor:  true 
+			});
+		</script>
+		</div>
+    </article></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">
+            
+		</div>
+		<br>
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020<a> |</a>
+                </span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Chenpt </a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <i class="fas fa-chevron-up fa-fw"></i>
+        </a><script>
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
+            });
+        });
+    </script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script></body>
+</html>
