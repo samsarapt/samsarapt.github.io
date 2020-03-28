@@ -19,11 +19,11 @@ Hugo有一些主题好像自带留言功能的，如果你的主题没有这个�
 
 应用名称随便写一个就完事了，选**开发版**，点击创建。应用创建好以后，进入刚刚创建的应用。点击**存储>创建class**，创建两个class，一个叫**Comment**，另一个叫**Counter**，除了名称不同，其余选项全部相同，具体选项如图。
 
-![创建class](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200322_222007.png)
+![创建class.png](https://i.loli.net/2020/03/28/MNx2qkB4IKSJLec.png)
 
 选择左下角的**设置>安全中心**，把你的博客地址填写到**Web安全域名**内，步骤如图。
 
-![](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200322_222232.png)
+![设置安全域名.png](https://i.loli.net/2020/03/28/ThfaQLOWsP2M7qN.png)
 
 选择左下角的**设置>应用Key**把这两个字符串记下来，之后会用到。
 
@@ -51,7 +51,7 @@ Hugo有一些主题好像自带留言功能的，如果你的主题没有这个�
 
 **avatar**这项是指留言头像样式的选择。因为Valine 目前使用的是Gravatar作为评论列表头像。有个人定制需要请自行登录或注册Gravatar，然后修改自己的头像。评论的时候，留下在Gravatar注册时所使用的邮箱即可。为了给需要给留言的未注册小伙伴们一个默认的头像，我们要在这里选择默认头像的样式，当让你也可以把头像功能直接关闭。具体参数和样式的对应关系如下图。
 
-![头像](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200322_221632.png)
+![头像配置.png](https://i.loli.net/2020/03/28/rZBW26x1EQu3Cwo.png)
 
 ### 创建留言框
 
@@ -96,7 +96,7 @@ Hugo有一些主题好像自带留言功能的，如果你的主题没有这个�
 
 至此你的留言功能已经全部添加完毕，由于Valine留言的门槛较低，万一有沙雕在你的博客评论下面恶意刷广告，我们可以进入数据库手动删掉这些留言。首先进入LeanCloud后台，点开刚才创建好的应用，界面如下图所示。
 
-![snipaste_20200322_221653](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200322_221653.png)
+![数据管理.png](https://i.loli.net/2020/03/28/CpPbmvzLMJyuRwn.png)
 
 其中**Comment**储存的是博客的留言数据，**Counter**储存的是每一篇博客文章的访问量。点击进入对应的数据库就可以对数据进行修改和删除啦。
 
@@ -156,13 +156,13 @@ git push -u origin master
 
 接下来就是把刚刚加了证书的域名和我们的博客绑定在一块。在域名列表页面找到你刚刚购买的域名，点击右侧的**解析**按钮，进入**解析设置**界面。点击左上角的**添加记录**按钮，添加两条记录，如下图所示。
 
-![image-20200323013658650](http://q7l2ql4vs.bkt.clouddn.com/image-20200323013658650.png)
+![解析域名.png](https://i.loli.net/2020/03/28/Boej8D63mLHWNnM.png)
 
 其中一条记录的**主机记录**写`www`，另一条记录的**主机记录**写`@`,剩下的全部一样。
 
 回到GitHub的博客仓库页面，点击上方菜单的**Settings**选项，拉到**GitHub Pages**相关设置，在**Custom domain**里面填入你刚刚购买的域名，不用写www，点击**save**。此时你在浏览器输入自己的域名就可以访问到你的博客了，如果显示404，那就再等个10分钟左右就可以了，毕竟不是实时的。
 
-![image-20200323014022852](http://q7l2ql4vs.bkt.clouddn.com/image-20200323014022852.png)
+![git仓库配置域名.png](https://i.loli.net/2020/03/28/pFPanC4HKfhOxue.png)
 
 如果你不对你的域名配置证书的话，**Enforce HTTPS**这一项是没有办法勾选的。
 
