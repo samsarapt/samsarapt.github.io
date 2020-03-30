@@ -4,6 +4,11 @@
         <link>https://ptchen.online/</link>
         <description>pt&#39;s blog | pt&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2020 12:18:24 &#43;0800</lastBuildDate><atom:link href="https://ptchen.online/" rel="self" type="application/rss+xml" /><item>
+                <title>Posts</title>
+                <link>https://ptchen.online/posts/</link>
+                <pubDate>Mon, 30 Mar 2020 18:57:24 &#43;0800</pubDate><guid>https://ptchen.online/posts/</guid>
+                <description></description>
+            </item><item>
                 <title>Changelog</title>
                 <link>https://ptchen.online/changelog/</link>
                 <pubDate>Tue, 24 Mar 2020 12:18:24 &#43;0800</pubDate><guid>https://ptchen.online/changelog/</guid>
@@ -56,11 +61,6 @@
  开发的 &lt;a href=&#34;https://themes.gohugo.io/leaveit/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Leaveit&lt;/a&gt;
  主题&lt;/p&gt;
 </description>
-            </item><item>
-                <title>Posts</title>
-                <link>https://ptchen.online/posts/</link>
-                <pubDate>Sat, 21 Mar 2020 12:12:54 &#43;0800</pubDate><guid>https://ptchen.online/posts/</guid>
-                <description></description>
             </item><item>
                 <title>Something About</title>
                 <link>https://ptchen.online/about/</link>

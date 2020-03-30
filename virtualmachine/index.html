@@ -5,19 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Hugo零基础搭建上篇--Demo发布 | pt&#39;s blog</title>
-        <meta name="Description" content="Chenpt的博客"><meta property="og:title" content="Hugo零基础搭建上篇--Demo发布" />
-<meta property="og:description" content="0x00 前言 本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你" />
+        <title>Windows / MacOS虚拟机搭建 | pt&#39;s blog</title>
+        <meta name="Description" content="Chenpt的博客"><meta property="og:title" content="Windows / MacOS虚拟机搭建" />
+<meta property="og:description" content="0x00 前言 什么是虚拟机 虚拟机，顾名思义就是虚拟出来的机器 （废话）。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ptchen.online/createhugo01/" />
-<meta property="article:published_time" content="2020-03-19T12:18:44+08:00" />
-<meta property="article:modified_time" content="2020-03-19T12:18:44+08:00" />
+<meta property="og:url" content="https://ptchen.online/virtualmachine/" />
+<meta property="article:published_time" content="2020-03-30T18:57:24+08:00" />
+<meta property="article:modified_time" content="2020-03-30T18:57:24+08:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo零基础搭建上篇--Demo发布"/>
-<meta name="twitter:description" content="0x00 前言 本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你"/>
+<meta name="twitter:title" content="Windows / MacOS虚拟机搭建"/>
+<meta name="twitter:description" content="0x00 前言 什么是虚拟机 虚拟机，顾名思义就是虚拟出来的机器 （废话）。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出"/>
 <meta name="theme-color" content="#ffffff">
 <meta name="msapplication-TileColor" content="#da532c">
-<link rel="canonical" href="https://ptchen.online/createhugo01/" />
+<link rel="canonical" href="https://ptchen.online/virtualmachine/" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,22 +25,22 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-<link href='https://cdn.repository.webfont.com/webfonts/nomal/136905/46972/5e7cc9daf629d806b0e269e9.css' rel='stylesheet' type='text/css' /><link rel="next" href="https://ptchen.online/createhugo02/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+<link href='https://cdn.repository.webfont.com/webfonts/nomal/136905/46972/5e7cc9daf629d806b0e269e9.css' rel='stylesheet' type='text/css' /><link rel="prev" href="https://ptchen.online/createhugo02/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Hugo零基础搭建上篇--Demo发布",
+        "headline": "Windows \/ MacOS虚拟机搭建",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/ptchen.online\/createhugo01\/"
+            "@id": "https:\/\/ptchen.online\/virtualmachine\/"
         },"image": {
                 "@type": "ImageObject",
                 "url": "https:\/\/ptchen.online\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "Hugo, Blog","wordcount":  3395 ,
-        "url": "https:\/\/ptchen.online\/createhugo01\/","datePublished": "2020-03-19","dateModified": "2020-03-19","publisher": {
+            },"genre": "posts","keywords": "虚拟机","wordcount":  5336 ,
+        "url": "https:\/\/ptchen.online\/virtualmachine\/","datePublished": "2020-03-30","dateModified": "2020-03-30","publisher": {
                 "@type": "Organization",
                 "name": "ptchen",
                 "logo": {
@@ -91,17 +91,17 @@
     window.mobileHeaderMode = "fixed";
 </script>
 <main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Hugo零基础搭建上篇--Demo发布</h1><div class="post-meta">
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-03-19>2020-03-19<a>   </a></time>&nbsp;<span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author">Chenpt </a>
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Windows / MacOS虚拟机搭建</h1><div class="post-meta">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-03-30>2020-03-30<a>   </a></time>&nbsp;<span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author">Chenpt </a>
 </span>&nbsp;
-                    <span class="post-category">收录于<a href="/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3">
-                                <i class="far fa-folder fa-fw"></i>博客相关
+                    <span class="post-category">收录于<a href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB">
+                                <i class="far fa-folder fa-fw"></i>经验分享
                             </a></span></div>
             <div class="post-meta-line">
-                <i class="fas fa-pencil-alt fa-fw"></i>约 3395 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>预计阅读 7 分钟&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>约 5336 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>预计阅读 11 分钟&nbsp;
 				<i class="fa fa-mouse-pointer fa-fw"></i>
-					<span id="/createhugo01/" class="leancloud_visitors" data-flag-title="Hugo零基础搭建上篇--Demo发布">
+					<span id="/virtualmachine/" class="leancloud_visitors" data-flag-title="Windows / MacOS虚拟机搭建">
 						<span class="post-meta-item-text">已被点击 </span>
 						<span class="leancloud-visitors-count"></span>
 						<span class="post-meta-item-text">次 </span>
@@ -123,41 +123,39 @@
   <ul>
     <li><a href="#0x00-前言">0x00 前言</a>
       <ul>
-        <li><a href="#hugo博客的优点">Hugo博客的优点</a></li>
-        <li><a href="#hugo博客的缺点">Hugo博客的缺点</a></li>
+        <li><a href="#什么是虚拟机">什么是虚拟机</a></li>
+        <li><a href="#为什么需要虚拟机">为什么需要虚拟机</a></li>
       </ul>
     </li>
-    <li><a href="#0x01-本地安装hugo">0x01 本地安装Hugo</a>
+    <li><a href="#0x02-虚拟机经典用途">0x02 虚拟机经典用途</a>
       <ul>
-        <li><a href="#下载hugo">下载Hugo</a></li>
-        <li><a href="#安装hugo">安装Hugo</a></li>
+        <li><a href="#解决ie独占网站">解决IE独占网站</a></li>
+        <li><a href="#测试可疑文件">测试可疑文件</a></li>
+        <li><a href="#使用某系统版本独占软件">使用某系统/版本独占软件</a></li>
       </ul>
     </li>
-    <li><a href="#0x02-本地安装git">0x02 本地安装Git</a></li>
-    <li><a href="#0x03-本地新建项目">0x03 本地新建项目</a>
+    <li><a href="#0x03-安装虚拟机软件">0x03 安装虚拟机软件</a>
       <ul>
-        <li><a href="#新建项目">新建项目</a></li>
-        <li><a href="#安装主题">安装主题</a></li>
-        <li><a href="#配置主题">配置主题</a></li>
+        <li><a href="#macos用户">MacOS用户</a></li>
+        <li><a href="#windows用户">Windows用户</a></li>
       </ul>
     </li>
-    <li><a href="#0x04-编辑文章">0x04 编辑文章</a>
+    <li><a href="#0x04-下载系统镜像">0x04 下载系统镜像</a>
       <ul>
-        <li><a href="#安装typora">安装Typora</a></li>
-        <li><a href="#创建第一篇文章">创建第一篇文章</a></li>
+        <li><a href="#winodws镜像下载">Winodws镜像下载</a></li>
+        <li><a href="#macos镜像下载">MacOS镜像下载</a></li>
       </ul>
     </li>
-    <li><a href="#0x05-调试hugo项目">0x05 调试Hugo项目</a>
+    <li><a href="#0x05-创建虚拟机">0x05 创建虚拟机</a>
       <ul>
-        <li><a href="#正常情况">正常情况</a></li>
-        <li><a href="#意外情况">意外情况</a></li>
+        <li><a href="#使用parallels-desktop">使用Parallels Desktop</a></li>
+        <li><a href="#使用vmware-workstation">使用VMware Workstation</a></li>
       </ul>
     </li>
-    <li><a href="#0x06-发布博客">0x06 发布博客</a>
+    <li><a href="#0x06-虚拟机的入门操作">0x06 虚拟机的入门操作</a>
       <ul>
-        <li><a href="#创建github项目仓库">创建GitHub项目仓库</a></li>
-        <li><a href="#上传项目">上传项目</a></li>
-        <li><a href="#在线访问博客">在线访问博客</a></li>
+        <li><a href="#创建快照">创建快照</a></li>
+        <li><a href="#创建共享文件夹">创建共享文件夹</a></li>
       </ul>
     </li>
     <li><a href="#0x07-总结">0x07 总结</a></li>
@@ -165,342 +163,129 @@
 </nav></div>
                 </details>
             </div><div class="content" id="content"><h2 id="0x00-前言">0x00 前言</h2>
-<p>本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你主要想了解关于博客设计方面的问题，本篇对你几乎毫无帮助2333。我也是最近闲的发慌才开始捣腾静态博客这块，关于博客的装修设计问题自己也还在摸索，过段时间研究的差不多了再考虑写点相关的教程吧。</p>
-<h3 id="hugo博客的优点">Hugo博客的优点</h3>
-<p>既然市面上有那么多现成的博客平台，为什么要花时间去研究Hugo之类的静态博客呢，个人认为主要有两个优点：</p>
+<h3 id="什么是虚拟机">什么是虚拟机</h3>
+<p>虚拟机，顾名思义就是虚拟出来的机器  <del>（废话）</del>。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出来一个独立的操作系统。举个例子，一般情况下，购买的苹果电脑的用户只能使用MacOS，无法使用Windows，虚拟机的作用就是在你的Mac里生成一个应用程序，这个程序打开就是一个Windows系统，相当于把一个系统以软件的形式安装在你的电脑里，让你可以在一台电脑中同时使用两种系统，反之Windows用户可以通过虚拟机将MacOS安装在自己的电脑上。当然可以被虚拟出来的系统不仅限于MacOS和Windows，你可以通过虚拟机安装一切你知道的和你不知道的系统。</p>
+<h3 id="为什么需要虚拟机">为什么需要虚拟机</h3>
+<p>我们的电脑在购买时，一般只会安装一个操作系统，最常见的就是  <del>巨硬</del>  微软的Windows系统和苹果的MacOS系统，不会存在多个操作系统同时在的情况。而不同的操作系统又有不同的版本，Win系列常见的有WinXP、WinVista、Win7、Win8和Win10，MacOS从最初的8.5版本一路更新，到现在已经是10.15 Catalina了，一般情况下也不会存在多个版本同时存在的情况。</p>
+<p>由于操作系统类型和版本在同一台机器上存在唯一性，所以当我们选择了其中一种系统类型和版本号时，我们就要放弃其他类型的系统和版本。举个例子，有些软件只支持到Win7系统，Win10用户自然无法使用，有些软件只开发了Windows版本，Mac用户自然也就体验不了。不过鲁迅先生也说过，小孩子才做选择，成年人全都要，虚拟机的存在就为我们完美的解决了这个问题，我们可以安装不同系统类型、不同系统版本的虚拟机，来使用这些不同系统、不同版本下的独占软件。</p>
+<p>当然你也可以选择安装双系统，个人感觉不如虚拟机方面。</p>
+<h2 id="0x02-虚拟机经典用途">0x02 虚拟机经典用途</h2>
+<h3 id="解决ie独占网站">解决IE独占网站</h3>
+<p>我国一些机关政府类型的网站，几乎都是清一色<strong>只适配的IE浏览器</strong>，无论你使用主流的Safari、Chrome、Firefox、Edge，还是360、QQ、UC、遨游等浏览器，总有各种各样的问题在等着你。有的CSS样式出错，有的JS加载失败，有的甚至连网站直接卡死，七七八八的问题总有一款坑到你。然而IE这个食物链底层的浏览器，你在近几年的Windows系统里都找不着了，更不要说MacOS用户了，所以，我们需要一台安装了Win7的虚拟机来帮助我们正常的使用这些网站。</p>
+<h3 id="测试可疑文件">测试可疑文件</h3>
+<p>虚拟机内的任何操作都是和你的主机完全隔离的，所以哪怕你在虚拟机里面塞了999+的病毒也丝毫不会影响你主机的正常运行。我们可以利用这个特点，在虚拟机里面对一些可疑的文件进行测试，出了问题最差的情况不过就是把虚拟机删了重建，最大程度上避免了把自己主机搞崩溃需要重装系统的情况。</p>
+<p>这里说一个最经典的案例，一些不擅长搜索的朋友们可能会经常碰到。当你需要下载一款破解版软件的时候，打开百度一搜，出来一排乱七八糟的下载站。你随便点一个网站进去，看到满屏的下载按钮不知所措，于是你随便点了一个，下载下来一个exe安装包，双击之后不仅没有获得你想要的破解软件，还擅自给你安装了一堆垃圾软件，将你的电脑瞬间卡死，从此开机之后弹窗不断永无宁日。有了虚拟机你就可以直接在虚拟机里面对这个安装包进行测试，万一中招了也不至于危机主机，一定程度上保证了你主机的安全。</p>
+<h3 id="使用某系统版本独占软件">使用某系统/版本独占软件</h3>
+<p>这个问题上面已经说过了，你可以安装不同的虚拟机来使用一些独占软件，免去了找朋友借电脑和自己花钱再买电脑的麻烦。特别值得说的就是可以玩一些小时候的经典游戏了，仙三外传问情篇他不香吗！</p>
+<h2 id="0x03-安装虚拟机软件">0x03 安装虚拟机软件</h2>
+<h3 id="macos用户">MacOS用户</h3>
+<p>MacOS用户推荐安装Parallels Desktop，乔布斯钦点的虚拟机软件，用户体验好的一匹。国际惯例先进行安装包的下载，左转百度云：<a href="https://pan.baidu.com/s/18W-l8Dr8gBGmYDQKWmZfNw" target="_blank" rel="noopener noreffer">点击传送</a>
+，提取码：9497。土豪朋友请走官网通道，一年500<del>也不贵嘛</del>，支持正版的孩子都是值得尊敬的！<a href="https://item.taobao.com/item.htm?id=536704674157" target="_blank" rel="noopener noreffer">点击传送授权店</a>
+</p>
+<p>这里以百度云下载的安装包为例，安装步骤如下，流程很简单不上图了：</p>
+<ul>
+<li>双击【Parallels_Desktop13.3.1.dmg】解压镜像文件</li>
+<li>双击【Parallels Desktop.dmg】图标，解压镜像文件</li>
+<li>双击【安装】图标</li>
+<li>提示【从互联网安装的应用，您确定要打开吗？】，点击【打开】</li>
+<li>点击【跳过该版本】</li>
+<li>点击【不，使用现有的】</li>
+<li>输入电脑密码，然后点击【好】</li>
+<li>安装完成</li>
+</ul>
+<h3 id="windows用户">Windows用户</h3>
+<p>Windows用户推荐安装VMware Workstation，个人目前正在使用，感觉良好。</p>
+<p>Windows用户在安装软件之前，需要进入BIOS确认自己已经开启Hyper-V虚拟化服务。根据电脑品牌的不同，相应的操作流程和界面也不同。大家可以自行百度，关键词：XX电脑XX型号+BIOS+开启Hyper-V，多参考几篇就知道如何对应操作了。</p>
+<p>开启Hyper-V后，国际惯例先进行安装包的下载，左转百度云：<a href="https://pan.baidu.com/s/16_JlJ31R6wR8ja_f7o9kNw" target="_blank" rel="noopener noreffer">点击传送</a>
+，提取码：4c94。土豪朋友请走官网通道，1709直接买断<del>也不是很贵嘛</del>，支持正版的孩子都是值得尊敬的！<a href="https://store.vmware.com/store?Action=DisplayProductDetailsPage&amp;Env=BASE&amp;Locale=zh_CN&amp;SiteID=vmware&amp;ThemeID=2485600&amp;productID=5222154500&amp;src=eBIZ_StoreHome_Featured_WorkstationPro_Buy_CN" target="_blank" rel="noopener noreffer">点击传送官网</a>
+</p>
+<p>这里以百度云下载的安装包为例，安装步骤如下，流程很简单不上图了：</p>
+<ul>
+<li>鼠标右击【VMware 15.5.0】压缩包选择【解压到VMware 15.5.0】</li>
+<li>双击打开解压后的【VMware 15.5.0】文件夹</li>
+<li>鼠标右击【VMware 15.5.0】选择【以管理员身份运行】</li>
+<li>安装准备读条结束后，点击【下一步】</li>
+<li>勾选【我接受许可协议中的条款】，然后点击【下一步】</li>
+<li>点击【更改】更改软件的安装路径，建议安装在除C盘之外的其它磁盘，可以在D盘或者其它盘新建一个【VMware15】文件夹，然后点击【下一步】</li>
+<li>取消勾选【启动时检查产品更新&hellip;】与【加入VMware客户体验提升计划】，然后点击【下一步】</li>
+<li>狂点【下一步】，直至出现【安装】按钮，点击【安装】</li>
+<li>安装读条结束后，点击【许可证】</li>
+<li>许可证密钥输入【UY758-0RXEQ-M81WP-8ZM7Z-Y3HDA】，然后点击【输入】</li>
+<li>安装完成</li>
+</ul>
+<h2 id="0x04-下载系统镜像">0x04 下载系统镜像</h2>
+<p>虚拟机程序安装完毕之后，我们就要开始下载所需系统的镜像，这时候根据你需要安装的系统名称来选择，例如要安装Win7就需要下载Winodws 7的镜像文件。顺带一提，这个镜像和你平时重装电脑时用到的镜像是同一个东西。</p>
+<h3 id="winodws镜像下载">Winodws镜像下载</h3>
+<p>对于Windows系统镜像建议选择官方镜像，不要选择什么雨林木风、番茄花园等国内自制镜像，因为里面本身就会自带一堆的垃圾软件。这里推荐一个下载站（<a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener noreffer">点击传送</a>
+），全是纯官方镜像，安全放心。进去后在左侧菜单选择操作系统，找到你需要的Windows系统版本，点击名称，便会在右侧出现对应的镜像下载地址。这里注意两点：</p>
 <ul>
 <li>
-<p>数据的安全：说到博客我就想起来已经挂掉的BlogBus，一声不吭说停服就停服，多少人的心血文章就这么没掉了，连个备份的机会都不给。所以对比与这些第三方博客平台，自己搭建博客最大的优点便是数据永远不会丢失。</p>
+<p>Windows系统是区分类型版本的，例如Win7就有家庭版、企业版、专业版、旗舰版等等等等&hellip;.一般情况下，Win7我们选旗舰版（<strong>Windows 7 Ultimate with Service Pack 1</strong>），Win10我们选择个人版（<strong>Windows 10 consumer editions</strong>），其他的Win8、WinXP看需求，个人没有研究不做推荐</p>
 </li>
 <li>
-<p>方便的样式客制化：大部分人都喜欢把博客改造成自己喜欢的风格，Hugo在这个方面做得其实和当年的QQ空间差不多，你只需稍微一丢丢的搜索能力和前端知识就可以完成大部分的样式改造。</p>
+<p>Windows系统也是区分CPU位数的，分别为x86和x64，也就是我们口中的32位和64位，一般情况下，有64位就选64位。如果你的主机还是32位的，emmmmm，你可以不用看下去了，先换台电脑吧</p>
 </li>
 </ul>
-<h3 id="hugo博客的缺点">Hugo博客的缺点</h3>
-<p>Hugo的缺点也非常明显。首先就是搭建过程十分的劝退零计算机基础的朋友，看到代码就头疼完全不想继续操作。然后就是文章是用Markdown语法书写的，刚才开始的时候会有强烈的不适应感。</p>
-<h2 id="0x01-本地安装hugo">0x01 本地安装Hugo</h2>
-<h3 id="下载hugo">下载Hugo</h3>
-<p>打开Hugo的GitHub项目地址 。  <a href="https://github.com/gohugoio/hugo/releases" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://i.loli.net/2020/03/30/irw91jU3QZuNnAR.png,  1.5x,  2x"
+        data-src=""
+        alt="win镜像下载.png"
+        title="win镜像下载.png" /></p>
+<h3 id="macos镜像下载">MacOS镜像下载</h3>
+<p>和Windows系统不同，MacOS的官方镜像是不能直接用于虚拟机安装的，需要自己转换成为ISO或者CDR格式，才能被VMware Workstation正确识别。个人目前没有发现什么比较好的MacOS镜像收录网站，所以这里就只提供一个<strong>macOS Mojave 10.14.5</strong>镜像文件的下载地址，提取码：yrxm。<a href="https://pan.baidu.com/s/1fpb_zon9bOU-1HgSJjeeQA" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/cHsClzJDyZXKh6B.png,  1.5x,  2x"
-        data-src=""
-        alt="hugo下载.png"
-        title="hugo下载.png" /></p>
-<p>在页面中选择最上面的那个版本，点击hugo_版本号_Windows-32bit.zip  或者  hugo_版本号_Windows-64bit.zip进行下载，具体哪个看自己电脑的位数，现在基本都是64bit了。点击之后就会立刻开始下载，GitHub的下载速度有时候比较感人，耐心等等吧。</p>
-<h3 id="安装hugo">安装Hugo</h3>
-<p>打开我的电脑，在众多盘里面选择一个幸运盘打开，将Hugo安装进去，这里我选择了D盘。</p>
-<p>在D盘新建文件夹，命名为<strong>Hugo</strong>，打开刚建好的Hugo文件夹，再新建两个文件夹，一个叫<strong>bin</strong>，另一个叫<strong>Sites</strong>。解压刚才下好的zip文件，里面有3个文件，把<strong>hugo.exe</strong>复制到刚建好的<strong>bin</strong>文件夹内，整个安装过程结束。</p>
-<h2 id="0x02-本地安装git">0x02 本地安装Git</h2>
-<p>如果你不知道什么是Git，emmm那就不要管那么多了，下就是了。</p>
-<p>首先照例进入官网。<a href="https://git-scm.com/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+<h2 id="0x05-创建虚拟机">0x05 创建虚拟机</h2>
+<p>准备好虚拟机软件和系统镜像文件之后，就可以开始进行虚拟机的创建了。</p>
+<h3 id="使用parallels-desktop">使用Parallels Desktop</h3>
+<p>Parallels Desktop创建虚拟机的步骤非常的友好，不愧是乔帮主钦点的产品，个人感觉不用看任何教程的情况下都可以顺利将虚拟机创建出来，不过这里提供一个视频教程，安装其他版本虚拟机的操作基本一致。</p>
+<p>MacOS安装Win10虚拟机教学视频-bilibili。<a href="https://www.bilibili.com/video/BV1Zt41197FP?t=95" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/s9IcHy2dWlLkvJE.png,  1.5x,  2x"
-        data-src=""
-        alt="git官网.png"
-        title="git官网.png" /></p>
-<p>网页应该会自动识别你的系统和版本，直接点击页面中的  <strong>Download 版本号 for 系统名</strong>  下载就完事了。下载完成之后获得一个exe文件，双击打开，国际惯例除了指定安装目录之外无脑下一步就完事了。如果你非常在意细节，可以参考这篇文章。<a href="https://www.cnblogs.com/zzzxing/p/12515477.html" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+<p>至此你已经拥有了一个Win10的虚拟机，找个激活工具激活一下就可以正常使用了，不激活其实问题也不大。激活工具也给你准备好了，Win7和Win10都有，<a href="https://pan.baidu.com/s/1yEV1dUHwUu25t3BTfH-mTQ" target="_blank" rel="noopener noreffer">点击传送百度云</a>
+，提取码：k3ga。</p>
+<h3 id="使用vmware-workstation">使用VMware Workstation</h3>
+<p>由于已经有非常多关于安装各种虚拟机的帖子，这里就不亲自介绍了  <del>其实是懒得截图</del> ，给大家提供几个靠谱的链接。</p>
+<p>创建MacOS虚拟机。<a href="https://blog.csdn.net/viafcccy/article/details/83053970" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
-<h2 id="0x03-本地新建项目">0x03 本地新建项目</h2>
-<h3 id="新建项目">新建项目</h3>
-<p>使用<kbd>Win</kbd>+<kbd>R</kbd>快捷键输入 <del>曹孟德</del> cmd后，进入命令提示符。当然如果你会用Git Bash的话，接下来的全部命令行操作用Git Bash也是可以的。输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">d:
-</code></pre></td></tr></table>
-</div>
-</div><p>进入D盘，再输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd Hugo/Sites
-</code></pre></td></tr></table>
-</div>
-</div><p>进入刚刚创建好的<strong>Sites</strong>文件夹，现在开始创建博客项目。输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new site mysite
-</code></pre></td></tr></table>
-</div>
-</div><p>没有出现错误的情况如下图所示</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/3snJH8iNXR9u2jY.png,  1.5x,  2x"
-        data-src=""
-        alt="创建项目.png"
-        title="创建项目.png" /></p>
-<p>其中<strong>mysite</strong>可以换成你想要起的任何英文名字，我这里用的名字是<strong>blogtest</strong>，回车之后便可以在<strong>Sites</strong>文件夹内看到我们刚刚创建好的项目文件夹，打开结构如下。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/bwOqQX639xUV5Ie.png,  1.5x,  2x"
-        data-src=""
-        alt="主题目录.png"
-        title="主题目录.png" /></p>
-<h3 id="安装主题">安装主题</h3>
-<p>首先你需要去商城挑选一个主题。<a href="https://themes.gohugo.io/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+<p>创建Windows 7虚拟机。<a href="https://blog.csdn.net/weixin_43465312/article/details/92662519" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
+<p>这里重点说一个处理器核数和内存分配的问题。这两个数值越大，你的虚拟机运行起来就越流畅，所以要根据个人需求和自身主机的情况的决定。一般来说，内存最低给2G，总核数最低给2核。</p>
+<p>先说内存，假设你的主机内存有8G，日常工作中会稳定用掉3-4G的内存，那么你最多就只剩下4G的内存可以分配给你的虚拟机，同时要保证分配给虚拟机之后内存还有至少1G的容量来应对其他情况，那么你的最优分配方案就是给虚拟机2G。我个人使用的电脑有16G的内存，日常最多占用8G多，所以我可以给我的虚拟机分配4G内存，这样我还剩下将近4G内存来保证主机运行的流畅度。关于日常工作时的内存占用数值，我们可以通过任务管理器的性能面板查看，快捷键<kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>esc</kbd>。</p>
+<p>再说核数。VM中总核数=处理器数量x每个处理器核心数量。关于这两项数据与主机CPU的核数、线程数的关系我至今也没有搞明白，不过通过日常使用得出一个准确的结论：处理器数量统一选1，每个处理器核心数量不要超过你主机CPU的最大线程数的一半。这样你的虚拟机既不会太卡，也不会占用太多的主机资源。关于如何查看主机CPU的最大线程数，在任务管理器的性能面板右下角，逻辑化处理那项数据就是最大线程数。</p>
+<p>如果你还存在同时开多台虚拟机的需求，那就要保证所有虚拟机占用的线程数和内存加上主机日常使用的内存的总数不要超过你主机的内存和线程数的最大值，不然就没有办法同时打开多台虚拟机了。</p>
+<h2 id="0x06-虚拟机的入门操作">0x06 虚拟机的入门操作</h2>
+<h3 id="创建快照">创建快照</h3>
+<p>虚拟机的快照功能，就相当一个备份，你可以随时将虚拟机还原到这个备份来，和当年还原精灵的功能差不多。有了快照功能，我们就可以非常放肆在虚拟机里面进行测试，搞砸了就恢复快照，将虚拟机重置为创建快照时候的样子。没错，这就是伊邪那岐！</p>
+<p>一般建议创建两个快照，一份是虚拟机刚创建完毕时的快照，用于直接重置整个虚拟机，相当于快捷重装系统。另一份是要进行比较危险的操作前，创建一份快照，万一这次操作失败可以将虚拟机快速重置到操作之前。</p>
+<p>Parallels Desktop的快照功能在顶部菜单的【操作】下拉栏内，VMware Workstation的快照功能在顶部菜单的【虚拟机】下拉栏内，具体如下图。</p>
 <p><img
         class="lazyload"
         src="/svg/loading.small.min.svg"
         data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/jMSJzypP9RHrWeA.png,  1.5x,  2x"
+        data-srcset="https://i.loli.net/2020/03/30/lKLnQXhBtoJfUHI.png,  1.5x,  2x"
         data-src=""
-        alt="主题详情页.png"
-        title="主题详情页.png" /></p>
-<p>看中哪个主题就直接点击进入详情页，点击<strong>Demo</strong>可以查看案例，对案例感觉满意就返回，点击<strong>Download</strong>即可进入该主题的GitHub仓库，在浏览器地址栏把这个地址复制下来。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/u3EZTws8HPA7JOC.png,  1.5x,  2x"
-        data-src=""
-        alt="复制地址.png"
-        title="复制地址.png" /></p>
-<p>回到CMD，输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd blogtest/themes
-</code></pre></td></tr></table>
-</div>
-</div><p>进入项目文件夹内的主题文件夹，开始准备安装一个自己喜欢的主题。输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">git clone 你刚才复制的主题地址
-</code></pre></td></tr></table>
-</div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/myJ6XaTWYBxt45K.png,  1.5x,  2x"
-        data-src=""
-        alt="下载主题.png"
-        title="下载主题.png" /></p>
-<p>没啥意外等进度条走完就行了，GitHub有时候会抽风出现403，多试几次就好了23333。安装之后themes文件内就多了一个你刚刚下好的主题文件夹，之后对于主题的所有修改都在这个主题文件夹里面完成。</p>
-<h3 id="配置主题">配置主题</h3>
-<p>打开主题文件夹，直接用搜索在里面找一个名为<strong>config.toml</strong>的文件，把它复制到你的博客项目的根目录下。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/EKwVe2Pg5rjlYnM.png,  1.5x,  2x"
-        data-src=""
-        alt="搜索.png"
-        title="搜索.png" /></p>
-<p>根目录下有一个同名文件，直接替换掉就好了。如果你不是很热衷于魔改的话，到这里关于主题的配置就结束了，如果你想进行一些客制化，可以自行百度，hugo的缺点就是文档缺的厉害，只能参考别人的经验自己一点点摸索了。这里提供一份参考：<a href="https://dp2px.com/2019/09/04/hugo-config/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+        alt="创建快照.png"
+        title="创建快照.png" /></p>
+<h3 id="创建共享文件夹">创建共享文件夹</h3>
+<p>虚拟机的硬盘是从主机的硬盘上，单独占据一大块空间，供给虚拟机使用。就相当于在你自己的家里腾出部分的占地面积，建了一个四面包裹的十分严实的实验室，这个实验室就算里面核弹爆炸了，你家其他面积的部分也会不有任何损失。这样也有一个缺点，这个实验室需要一些东西的时候，没有办法主动从你家中获取，必须你手动送进去给它，反之你需要实验室里面一些东西的时候也只能亲自进去拿，有些时候这样子显得不太方便。于是你就在实验室边上又建了一个公共仓库，把实验室可能需要的东西都放进去，方便实验室需要时自行调配，实验室也会把你可能需要的东西放进仓库，方便你随时来取。这个仓库就是共享文件夹。</p>
+<p>Parallels Desktop创建共享文件夹教程。<a href="http://download.parallels.com/desktop/v12/docs/zh_CN/Parallels%20Desktop%20User%27s%20Guide/32922.htm" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
-<h2 id="0x04-编辑文章">0x04 编辑文章</h2>
-<h3 id="安装typora">安装Typora</h3>
-<p>由于Hugo里面所有的文章都是Markdown语法写的，所以你需要一个趁手的Markdown编辑器，这里推荐使用Typora。</p>
-<p>国际惯例打开官网。<a href="https://www.typora.io/#windows" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
+<p>VMware Workstation创建共享文件夹教程。<a href="https://jingyan.baidu.com/article/200957610bc480cb0721b420.html" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
-<p>选择符合你系统位数的安装包下载，如果嫌弃官网慢可以自行寻找第三方提供的安装包，下载完成后依旧打开无脑点击下一步即可。</p>
-<h3 id="创建第一篇文章">创建第一篇文章</h3>
-<p>此时你的cmd应该在themes目录下，输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd ..
-</code></pre></td></tr></table>
-</div>
-</div><p>返回到自己的博客根目录下，输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new posts/first.md
-</code></pre></td></tr></table>
-</div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/bQve2PcT3BIOzW4.png,  1.5x,  2x"
-        data-src=""
-        alt="创建文章.png"
-        title="创建文章.png" /></p>
-<p>创建Markdown文件成功之后，你会在自己博客项目的根目录下的<strong>content文件夹</strong>中发现多了一个<strong>posts文件夹</strong>，你刚才创建的Markdown文件就在里面。这就是你的第一篇博文了，用Typora打开这个md文件，你就可以开始在里面编辑内容了。我们先随便写点东西在里面方便本次测试的时候看效果。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/Ptf7SmAqkYTwRpK.png,  1.5x,  2x"
-        data-src=""
-        alt="md编辑.png"
-        title="md编辑.png" /></p>
-<p>这里有两点需要注意：</p>
-<ul>
-<li>
-<p>Markdown文件开头的  <strong>draft: true</strong>  这串字符表示你的这篇文章处于草稿状态，草稿状态下的文章是无法显示出来的，所以要将<strong>true</strong>改为<strong>false</strong>，才能将文章显示出来。</p>
-</li>
-<li>
-<p>Markdown文件开头另起一行加入  <strong>categories</strong>  标签可以给文章增加分类，用于在博客中归类展示。格式如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">categories : [“分类名字”]
-</code></pre></td></tr></table>
-</div>
-</div></li>
-</ul>
-<p>关于如何正确编辑Markdown的格式，建议参考这篇。<a href="https://www.jianshu.com/p/ebe52d2d468f" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
-</p>
-<h2 id="0x05-调试hugo项目">0x05 调试Hugo项目</h2>
-<h3 id="正常情况">正常情况</h3>
-<p>此时你的cmd应该在博客项目的根目录下，直接输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo server
-</code></pre></td></tr></table>
-</div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/oJ1IWHsjAzp56wh.png,  1.5x,  2x"
-        data-src=""
-        alt="运行成功.png"
-        title="运行成功.png" /></p>
-<p>回车之后如果没有报错，打开浏览器输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">http://localhost:1313
-</code></pre></td></tr></table>
-</div>
-</div><p>即可进行对博客项目的本地预览，Hugo是支持实时更新的，所以你可以一边开着这个一边对主题文件进行魔改，方便实时查看变化。</p>
-<p>想停止调试在cmd界面按<kbd>Ctrl</kbd>+<kbd>C</kbd>即可。</p>
-<h3 id="意外情况">意外情况</h3>
-<p>极大部分情况是因为主题没有配置好的关系，建议详细阅读主题的安装文档，或者搜索使用同种主题的博主的文章进行解决。</p>
-<h2 id="0x06-发布博客">0x06 发布博客</h2>
-<p>一般情况下Hugo发布是用的是GitHub Pages，当然你也可以托管到其他平台，这里以GitHub Pages为例。</p>
-<h3 id="创建github项目仓库">创建GitHub项目仓库</h3>
-<p>如果你还没有GitHub的账户，当然是去注册一个。</p>
-<p>国际惯例打开官网。<a href="https://github.com/" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
-</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/KBrpo3gS2MmVy7C.png,  1.5x,  2x"
-        data-src=""
-        alt="创建仓库第一步.png"
-        title="创建仓库第一步.png" /></p>
-<p>登录之后点击右上角的头像左边的小加号，点击<strong>New repository</strong>，进入创建仓库页面。其中<strong>Repository name</strong>这一项的建议写法为：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">GitHub用户名.github.io
-</code></pre></td></tr></table>
-</div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/6mpyUkCcjrIOxnt.png,  1.5x,  2x"
-        data-src=""
-        alt="创建仓库第二步.png"
-        title="创建仓库第二步.png" /></p>
-<p>你的GitHub用户名就是左边<strong>Owner</strong>那栏里面的内容，然后权限选择<strong>Public</strong>，点击<strong>Create repository</strong>即可。</p>
-<p>页面跳转进入新建好的仓库界面，记录下这个仓库的地址。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="https://i.loli.net/2020/03/28/x5zWLmgBfHJwGFa.png,  1.5x,  2x"
-        data-src=""
-        alt="复制仓库地址.png"
-        title="复制仓库地址.png" /></p>
-<h3 id="上传项目">上传项目</h3>
-<p>还记得前面安装的Git吗，接下来全靠它了。首先进入你的博客项目的根目录，在随便一个空白的地方点击右键，点击<strong>Git Bash Here</strong>进入Git的命令行窗口，输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo --theme=你的主题名字 --baseUrl=&#34;https://你刚才新建的github仓库的名字/&#34; --buildDrafts
-</code></pre></td></tr></table>
-</div>
-</div><p>成功后直接在Git命令行窗口<strong>依次</strong>输入</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd public
-git init
-git add .
-git commit -m &#34;备注信息，写点啥都行,不能不写&#34;
-git remote add origin 你刚才复制的仓库地址
-git push -u origin master
-</code></pre></td></tr></table>
-</div>
-</div><p>一切顺利即可大功告成</p>
-<h3 id="在线访问博客">在线访问博客</h3>
-<p>打开浏览器，输入<strong>你刚才新建的GitHub仓库的名字</strong>，即<strong>GitHub用户名.github.io</strong>便可以在线看到自己的博客了。</p>
 <h2 id="0x07-总结">0x07 总结</h2>
-<p>一个Hugo的Demo上线基本就是这样一个流程，和普通的第三方博客平台进行对比，其实流程上都是有相似之处的。</p>
+<p>虚拟机的入门全过程归纳一下，就是分为四步：</p>
 <ul>
-<li>
-<p>第三方博客注册帐号 = Hugo环境搭建 + 新建项目</p>
-</li>
-<li>
-<p>第三方博客选择主题 = Git工具安装 + 下载GitHub上的主题 + 配置主题</p>
-</li>
-<li>
-<p>在第三方博客网页上写文章 = 使用Typora写文章</p>
-</li>
-<li>
-<p>第三方博客发表文章 = Hugo静态页面生成 +  推送Hugo静态页面到GitHub仓库</p>
-</li>
-<li>
-<p>第三方博客提供的网址访问 = GitHub Pages提供的网址访问</p>
-</li>
+<li>根据主机的系统选择虚拟机软件</li>
+<li>根据需要安装的虚拟机系统选择对应的镜像文件，进行下载</li>
+<li>打开虚拟机软件安装下载好的镜像文件</li>
+<li>配置初始化快照，按需设置共享文件夹</li>
 </ul>
-<p>在整个过程中，非要说有点困难的地方，那就是Hugo主题的适配，你需要去了解一些配置文件里面每一项的含义，相对应的将里面的内容进行替换。这一步确实对0计算机基础的小白有一些不太友好，不过现在大部分好看的主题在搜索引擎上基本都可以查阅到相应的配置教程，所以只要你有心思认真研究个一两天基本都是可以搭建出令自己满意的博客的。</p>
-<p>下一篇文章将会简介给自己的Hugo博客更换域名、日常更新博客的操作流程和其他方面的一些小优化。</p>
+<p>一般情况下，MacOS用户只有虚拟Windows系统的需求。一方面因为苹果一向严格要求软件适配系统，普通用户日常使用的软件都对最新版的MacOS有着良好的适配，所以也就大概率不会有在高版本MacOS下虚拟低版本MacOS的需求。另一方面，因为MacOS对Linux有着较好的兼容性，一般Linux的程序在MacOS下都可以正常运行，如果你还有虚拟Linux的需求，估计你已经去使用docker这类软件了。因此本文针对普通MacOS用户只提供了使用Parallels Desktop虚拟Windows的教程，如果你对其他操作系统有兴趣也可以自行搜索教程进行安装测试。关于Parallels Desktop的更多操作指南，可以参考这个B站UP主的视频，介绍的相对全面。<a href="[https://space.bilibili.com/41062266/video?keyword=%E8%99%9A%E6%8B%9F%E6%9C%BA]%28https://space.bilibili.com/41062266/video?keyword=%e8%99%9a%e6%8b%9f%e6%9c%ba%29" rel="noopener noreffer">点击传送</a>
+</p>
+<p>Windows算是兼容性最差的一个系统，因此虚拟各种其他系统的需求都会存在。本文列举最常见的虚拟低版本Windows和MacOS的情况，也足够普通用户的日常使用。这里特别说明一下，Windows虚拟MacOS的效果本身就不太好，有点卡顿是正常的，你主机配置差一点卡到爆炸也是正常的，毕竟白嫖要求也就不要太高了2333，能用上一些Mac独占的软件我已经很知足了。</p>
+<p>都看到这里了，少年郎，不如试试？</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -540,21 +325,20 @@ git push -u origin master
 			
 			<div class="post-info-share">
 				<span>
-					<a>Share: </a><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://ptchen.online/createhugo01/" data-title="Hugo零基础搭建上篇--Demo发布" data-hashtags="Hugo,Blog"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://ptchen.online/createhugo01/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://ptchen.online/createhugo01/" data-title="Hugo零基础搭建上篇--Demo发布"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://ptchen.online/createhugo01/" data-title="Hugo零基础搭建上篇--Demo发布"><i class="fab fa-evernote fa-fw"></i></a></span>
+					<a>Share: </a><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://ptchen.online/virtualmachine/" data-title="Windows / MacOS虚拟机搭建" data-hashtags="虚拟机"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://ptchen.online/virtualmachine/" data-hashtag="虚拟机"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://ptchen.online/virtualmachine/" data-title="Windows / MacOS虚拟机搭建"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://ptchen.online/virtualmachine/" data-title="Windows / MacOS虚拟机搭建"><i class="fab fa-evernote fa-fw"></i></a></span>
 			</div>
 		</div>
 		
     </div>
 
     <div class="post-info-more">
-        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo">Hugo</a>,&nbsp;<a href="/tags/blog">Blog</a></section>
+        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA">虚拟机</a></section>
         <section>
             <span><a href="javascript:window.history.back();">back</a></span>&nbsp;|&nbsp;<span><a href="/">home</a></span>
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/createhugo02/" class="next" rel="next" title="Hugo零基础搭建下篇--优化与日常维护">Hugo零基础搭建下篇--优化与日常维护<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/createhugo02/" class="prev" rel="prev" title="Hugo零基础搭建下篇--优化与日常维护"><i class="fas fa-angle-left fa-fw"></i>上一篇：Hugo零基础搭建下篇--优化与日常维护</a></div>
 	
 	
 	
