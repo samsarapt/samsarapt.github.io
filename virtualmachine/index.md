@@ -1,4 +1,4 @@
-# Windows / MacOS虚拟机搭建
+# Windows / MacOS下虚拟机搭建
 
 
 ## 0x00 前言
@@ -145,7 +145,7 @@ VMware Workstation创建共享文件夹教程。[点击传送](https://jingyan.b
 + 打开虚拟机软件安装下载好的镜像文件
 + 配置初始化快照，按需设置共享文件夹
 
-一般情况下，MacOS用户只有虚拟Windows系统的需求。一方面因为苹果一向严格要求软件适配系统，普通用户日常使用的软件都对最新版的MacOS有着良好的适配，所以也就大概率不会有在高版本MacOS下虚拟低版本MacOS的需求。另一方面，因为MacOS对Linux有着较好的兼容性，一般Linux的程序在MacOS下都可以正常运行，如果你还有虚拟Linux的需求，估计你已经去使用docker这类软件了。因此本文针对普通MacOS用户只提供了使用Parallels Desktop虚拟Windows的教程，如果你对其他操作系统有兴趣也可以自行搜索教程进行安装测试。关于Parallels Desktop的更多操作指南，可以参考这个B站UP主的视频，介绍的相对全面。[点击传送]([https://space.bilibili.com/41062266/video?keyword=%E8%99%9A%E6%8B%9F%E6%9C%BA](https://space.bilibili.com/41062266/video?keyword=虚拟机))
+一般情况下，MacOS用户只有虚拟Windows系统的需求。一方面因为苹果一向严格要求软件适配系统，普通用户日常使用的软件都对最新版的MacOS有着良好的适配，所以也就大概率不会有在高版本MacOS下虚拟低版本MacOS的需求。另一方面，因为MacOS对Linux有着较好的兼容性，一般Linux的程序在MacOS下都可以正常运行，如果你还有虚拟Linux的需求，估计你已经去使用docker这类软件了。因此本文针对普通MacOS用户只提供了使用Parallels Desktop虚拟Windows的教程，如果你对其他操作系统有兴趣也可以自行搜索教程进行安装测试。关于Parallels Desktop的更多操作指南，可以参考这个B站UP主的视频，介绍的相对全面。[点击传送](https://space.bilibili.com/41062266/video?keyword=%E8%99%9A%E6%8B%9F%E6%9C%BA)
 
 Windows算是兼容性最差的一个系统，因此虚拟各种其他系统的需求都会存在。本文列举最常见的虚拟低版本Windows和MacOS的情况，也足够普通用户的日常使用。这里特别说明一下，Windows虚拟MacOS的效果本身就不太好，有点卡顿是正常的，你主机配置差一点卡到爆炸也是正常的，毕竟白嫖要求也就不要太高了2333，能用上一些Mac独占的软件我已经很知足了。
 
