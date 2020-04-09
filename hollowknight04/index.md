@@ -15,13 +15,13 @@
 
 有了黑冲和酸泳，我们就可以在整个雾之峡谷畅通无阻。由皇后驿站右上方进入峡谷，到顶部后左转，在上到整张图3/4高度时右拐，看到一个需要黑冲才能过的结界时，你就可以顺利见到蚊子大爷了。
 
-![image-20200404151013278](http://q7l2ql4vs.bkt.clouddn.com/image-20200404151013278.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-1.jpg)
 
 ### 获取护符槽位
 
 位置如图所示，由左边进入，在一堆爆炸物中获得一个额外护符槽位，提示可以用梦剑回蓝和黑波清屏。
 
-![image-20200404151341206](http://q7l2ql4vs.bkt.clouddn.com/image-20200404151341206.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-2.jpg)
 
 ### 守梦者--教师莫诺蒙
 
@@ -29,11 +29,11 @@
 
 现在我们下面刚好有一个守卫最弱的守梦者，于是决定下去顺手把它干掉。走到地图上最近的守梦者标识处，进入教师档案馆，先在上面的椅子存个档，然后下去KO掉那只BOSS水母。
 
-![image-20200404172400209](http://q7l2ql4vs.bkt.clouddn.com/image-20200404172400209.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-3.jpg)
 
 这只水母的打法有些不同，在有外壳的情况下，它是无敌的且外壳不会被我们的攻击击破。只有奎诺小哥哥帮我们击破它的外壳之后，我们才能对它造成伤害。破壳状态下六个黑波就死了问题不大，接着找到莫诺蒙的位置，用梦剑进入她的梦境即可。
 
-![image-20200404172525669](http://q7l2ql4vs.bkt.clouddn.com/image-20200404172525669.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-4.jpg)
 
 ## 0x02 拜师
 
@@ -52,7 +52,7 @@
 + C点：容器碎片 
 + D点：护符--苦痛荆棘
 
-![image-20200404155307669](http://q7l2ql4vs.bkt.clouddn.com/image-20200404155307669.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-5.jpg)
 
 ### 呼啸山崖
 
@@ -63,7 +63,7 @@
 + C点：护符--乔尼的祝福
 + D点：师傅--**奥罗**
 
-![image-20200404161829146](http://q7l2ql4vs.bkt.clouddn.com/image-20200404161829146.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-6.jpg)
 
 ### 王国边缘
 
@@ -75,13 +75,13 @@
 + D点：打开泪水之城到竞技场的通路，方便下次赶路
 + E点：推荐出口，顺手打开**泪水之城去爱之塔**的通路
 
-![image-20200404164329887](http://q7l2ql4vs.bkt.clouddn.com/image-20200404164329887.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-7.jpg)
 
 ### 师父的师父？！
 
 从泪水之城回到德特茅斯，去找苍蝇大叔，你就会一脸懵逼的发现这个小不点居然是那三个大块头的师傅，卧槽这个反差萌简直了。师公乱吹了一波自己之后，送给我们一个护符：**骨钉大师的荣耀**。
 
-![image-20200404165750510](http://q7l2ql4vs.bkt.clouddn.com/image-20200404165750510.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-8.jpg)
 
 出来之后去找十字路的欧巴桑把她家的护符槽位全买了，护符数量不够就在她家现买几个，这样我们总计有了9个护符槽位，把**萨满之石、法术扭曲者、灵魂捕手**都装备上，剩下两个槽位看自己喜好。
 
@@ -93,11 +93,11 @@
 
 这只是真菌荒地的一部分，给一张参考图，剩下的自己探索吧。A点：入口，B点：面具碎片。
 
-![image-20200404174403823](http://q7l2ql4vs.bkt.clouddn.com/image-20200404174403823.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-9.jpg)
 
 ### 深邃巢穴重点分布
 
-![image-20200404182358957](http://q7l2ql4vs.bkt.clouddn.com/image-20200404182358957.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-10.jpg)
 
 + A点：第二次救左特
 + B点：电车票
@@ -108,21 +108,21 @@
 
 进入地图上标注的位置，从门口进去，你会看到一帮二五仔邀请你坐在椅子上休息一下。
 
-![image-20200404182747227](http://q7l2ql4vs.bkt.clouddn.com/image-20200404182747227.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-11.jpg)
 
 当你信了他们的邪之后，就会被粘在椅子上动弹不得，醒来已经被花式捆绑。~~卧槽这个样子有可爱~~
 
-![image-20200404183031794](http://q7l2ql4vs.bkt.clouddn.com/image-20200404183031794.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-12.jpg)
 
 大方向是右上角，中间的路也不算难走，顺利找到赫拉，破解封印。
 
-![image-20200404183549691](http://q7l2ql4vs.bkt.clouddn.com/image-20200404183549691.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-13.jpg)
 
 ## 0x04 守梦者--守望者卢瑞恩
 
 ### 入口
 
-![image-20200404192432183](http://q7l2ql4vs.bkt.clouddn.com/image-20200404192432183.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-14.jpg)
 
 ### 尬舞骑士团
 
@@ -132,27 +132,27 @@
 + 不持久的法师：上去砍掉一个吊灯压死一只，剩下5只，打法同上
 + 菜鸡法师：带**编织者之歌**和**幼虫之歌**，全程躲避靠蜘蛛回蓝，有蓝就黑波
 
-![image-20200404193514014](http://q7l2ql4vs.bkt.clouddn.com/image-20200404193514014.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-15.jpg)
 
 ### 解除封印
 
 打完尬舞团，一路向上，即可解除封印。
 
-![image-20200404194857223](http://q7l2ql4vs.bkt.clouddn.com/image-20200404194857223.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-16.jpg)
 
 ## 0x05 黑卵圣殿-结局一
 
 由于我们破除了3个守梦者的封印，黑卵圣殿的门便打开了。
 
-![image-20200404195645873](http://q7l2ql4vs.bkt.clouddn.com/image-20200404195645873.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-17.jpg)
 
 进去之后，在椅子上存个档。先和椅子边上的小牌子对话，可以获得一个技能，在物品栏查看我们当前的游戏进度。总进度值为112%，因为多了4个DLC的内容。
 
-![image-20200407151244220](http://q7l2ql4vs.bkt.clouddn.com/image-20200407151244220.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-18.jpg)
 
 然后，直接进去干翻BOSS，即可打出【结局一】。
 
-![image-20200408094028924](http://q7l2ql4vs.bkt.clouddn.com/image-20200408094028924.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-19.jpg)
 
 结局一的大概剧情就是，我们取代了前辈，封印了瘟疫，成为了新的容器。
 
@@ -169,13 +169,13 @@
 + E点：打通去苍绿之径的路
 + F点：车站
 
-![image-20200405202509851](http://q7l2ql4vs.bkt.clouddn.com/image-20200405202509851.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-20.jpg)
 
 ### 额外的车站
 
 开启皇后花园车站，我们就开启了所有我们能自己发现的车站。这个时候老鹿角虫会告诉你他想起来自己的老家在哪了，最后一个车站：**鹿角虫巢穴**开启。在鹿角虫巢穴可以获得一块容器碎片。
 
-![image-20200405145308518](http://q7l2ql4vs.bkt.clouddn.com/image-20200405145308518.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-21.jpg)
 
 ## 0x07 电车路线探索
 
@@ -185,7 +185,7 @@
 
 这一区域只要注意AB两点就好了，A为苍白矿石，B为3000大洋换一个容器碎片
 
-![image-20200405165631002](http://q7l2ql4vs.bkt.clouddn.com/image-20200405165631002.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-22.jpg)
 
 ### 深邃巢穴区域
 
@@ -194,13 +194,13 @@
 + C点：一个容器碎片
 + D点：打败BOSS后，一个苍白矿石
 
-![image-20200405171428277](http://q7l2ql4vs.bkt.clouddn.com/image-20200405171428277.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-23.jpg)
 
 ### 王国边缘区域
 
-![image-20200405174030914](http://q7l2ql4vs.bkt.clouddn.com/image-20200405174030914.png)
-
 这块区域的事件就比较多，因为会探索一张全新的子地图--**蜂巢**。
+
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-29-空洞流程-04-24.jpg)
 
 + A点：蜂巢地图入口
 + B点：一个面具碎片

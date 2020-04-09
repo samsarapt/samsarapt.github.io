@@ -16,27 +16,27 @@
 
 之前每次和虫长者对话，总感觉他是个抑郁症晚期，送完花之后他整个人都变得积极向上了起来，有兴趣的话可以自行对照送花前和送花后的内心对白。也可以尝试在是否送出花的界面出现时，选择否，会有不一样的对白。
 
-![image-20200406153345835](http://q7l2ql4vs.bkt.clouddn.com/image-20200406153345835.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-1.jpg)
 
 ### 奥罗师父
 
 我们把花送到师父面前的时候，他在那边百般嫌弃，简直祖安文曲星。出门之后再回来就会发现他把花认真的养在一个瓶子里了，麻蛋这个游戏大部分角色都是死傲娇啊喂！
 
-![sifu1](http://q7l2ql4vs.bkt.clouddn.com/sifu1.jpg)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-2.jpg)
 
-![sifu122](http://q7l2ql4vs.bkt.clouddn.com/sifu122.jpg)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-3.jpg)
 
 ### 艾米丽塔
 
 在探索王国边缘电车线路附近地区的那一期，曾经有提及一条皇家水道通往国王驿站左侧的通路，这条路就是通往艾米丽塔的家中，我们也可以给这位贵族送花，不过她会拒绝我们，是真正的拒绝，无情的女人2333
 
-![02-2](http://q7l2ql4vs.bkt.clouddn.com/02-2.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-4.jpg)
 
 ### 白色夫人
 
 地点在哪应该是众所周知了，不废话了。白后也会拒绝我们送的花，不过语气倒是很温柔。
 
-![snipaste_20200408_213703](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_213703.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-5.jpg)
 
 ## 0x02 招魂所
 
@@ -46,25 +46,25 @@
 
 在非钢魂模式下，我们角色死亡之后，在死亡地点会留下一个小灵魂。在失去灵魂的状态下，我们的蓝量上限只有正常的三分之二，同时灵魂身上带有我们生前所有的金币。回到上次死亡地点，击败灵魂即可收回金币和缺失的蓝量上限。那么就会有一个问题，如果我们GG在了一个非常险恶的环境，回去回收灵魂有很大的概率继续当场暴毙，从而陷入死亡=>返回回收灵魂=>死亡的无限轮回之中。为了避免陷入这种伊邪那美，我们可以到这个招魂所，花费一个**腐臭蛋**的代价，让忏悔师吉吉把我们的灵魂召唤到这间屋子来，被召唤回来的魂不会主动攻击你，方便我们回收灵魂。
 
-![snipaste_20200408_132438](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_132438.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-6.jpg)
 
 关于**腐臭蛋**的获取途径，首先是苍蝇大叔会卖一个，然后就是可以在各处地图中，通过击杀怪物**腐臭口袋**获得，如下图。
 
-![05](http://q7l2ql4vs.bkt.clouddn.com/05.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-7.jpg)
 
 不过可以捡到的腐臭蛋数量是有限的，如果你全部都花完了，可以到皇家水道的下图位置购买。
 
-![snipaste_20200408_133558](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_133558.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-8.jpg)
 
 每次购买的费用都不一样，70-99大洋都有可能，如果你是非常重度的手残的话，可以一次性多买点备用2333
 
-![snipaste_20200408_133625](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_133625.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-9.jpg)
 
 ### 钢魂模式
 
 在钢魂模式下，没有灵魂的存在了，因为死亡即毁档。此时小屋内没有忏悔师吉吉，取代他的是**钢铁之魂吉恩**，是吉吉的好朋友。把腐臭蛋交给吉恩可以换取一定数量的随机金币，是钢魂模式下前期金钱的重要获取来源。同时皇家水道内卖腐臭蛋的NPC则会因为感染瘟疫死亡在小房间内，无法出售腐臭蛋，所以钢魂模式下腐臭蛋的来源只有苍蝇大叔处购买一个和在地图中获取。
 
-![snipaste_20200408_135056](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_135056.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-10.jpg)
 
 ## 0x03 图鉴内容-虚空神像
 
@@ -72,15 +72,15 @@
 
 ### 全调谐级
 
-![111](http://q7l2ql4vs.bkt.clouddn.com/111.jpg)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-11.jpg)
 
 ### 全进升级
 
-![1111111111](http://q7l2ql4vs.bkt.clouddn.com/1111111111.jpg)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-12.jpg)
 
 ### 全辐辉级
 
-![11](http://q7l2ql4vs.bkt.clouddn.com/11.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-13.jpg)
 
 ## 0x04 图鉴内容-束缚封印
 
@@ -92,7 +92,7 @@
 
 ### 图鉴样式
 
-![snipaste_20200408_145723](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_145723.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-14.jpg)
 
 ## 0x05 图鉴内容--风化面具
 
@@ -100,11 +100,11 @@
 
 完成神居第五门的四个束缚，可一次性完成或分批次完成。完成后来到第五门下方的温泉左侧屋外，如果没打开通路，就从第五门左边跳下去。可在墙角看见一条明显的裂缝，由此进入**风暴之地**。进来后向右走两步即可拾取。
 
-![13](http://q7l2ql4vs.bkt.clouddn.com/13.jpg)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-15.jpg)
 
 ### 图鉴样式
 
-![14](http://q7l2ql4vs.bkt.clouddn.com/14.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-16.jpg)
 
 ## 0x06 图鉴内容--维修虫
 
@@ -114,15 +114,15 @@
 
 理论上是说无论在十字路的哪一小块地图，将其路牌破坏后，出图再迅速返回都有概率碰到。不过大家普遍选择的是，从德特茅斯的井口下到遗忘的十字路处的那块路牌。首先，将其砍掉。
 
-![image-20200408160703370](http://q7l2ql4vs.bkt.clouddn.com/image-20200408160703370.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-17.jpg)
 
 然后从迅速从右边出图，在返回。返回过程中不要用冲刺，尽量从下方慢慢靠近。如果成功出现，距离路牌越近，就可以越明显的听到它哼小曲的声音，下图为极限痴汉距离（两根草的中间）。
 
-![image-20200408161043679](http://q7l2ql4vs.bkt.clouddn.com/image-20200408161043679.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-18.jpg)
 
 一旦低于这个距离，他就会迅速飞走逃跑，想再次遇到它只能看脸了。
 
-![image-20200408161205247](http://q7l2ql4vs.bkt.clouddn.com/image-20200408161205247.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-19.jpg)
 
 当你在痴汉距离，还未触发它的逃跑机制时，你有两个选择：
 
@@ -133,21 +133,21 @@
 
 犯罪嫌疑人空洞张三向受害者放出一个黑波。
 
-![18](http://q7l2ql4vs.bkt.clouddn.com/18.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-20.jpg)
 
 请问空洞张三应该判什么罪。~~故意杀虫的既遂。~~
 
-![image-20200408162325181](http://q7l2ql4vs.bkt.clouddn.com/image-20200408162325181.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-21.jpg)
 
 ### 图鉴样式
 
 PS：图鉴背景即为维修虫的小房间门外。
 
-![image-20200408162444021](http://q7l2ql4vs.bkt.clouddn.com/image-20200408162444021.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-22.jpg)
 
 ### 小屋环境
 
-![image-20200408163422840](http://q7l2ql4vs.bkt.clouddn.com/image-20200408163422840.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-23.jpg)
 
 ### 日记内容
 
@@ -165,11 +165,11 @@ PS：图鉴背景即为维修虫的小房间门外。
 
 进门第一位是守墓人，如果我们用梦剑攻击他或者其他墓主人，守墓人就会攻击我们，一次造成2格生命值伤害，同时守墓人无法被我们攻击，我们只有挨打的份。但是，我们可以和他拼刀，在他攻击到我们身上那刻，同时进行普攻，可以抵消这次的伤害。
 
-![22](http://q7l2ql4vs.bkt.clouddn.com/22.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-24.jpg)
 
 如果我们用无数次的生命作为代价，硬是把这里面的墓主人全部用梦剑驱散之后，再此对话守墓人，会发现他陷入了迷茫，我是谁，我在哪，我要干什么2333
 
-![image-20200408182858883](http://q7l2ql4vs.bkt.clouddn.com/image-20200408182858883.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-25.jpg)
 
 驱散其他墓主人之后，我们可以将守墓人也用梦剑驱散，从此整个灵魂沼地就再也没有灵魂了。个人是不建议这么做的，因为驱散一个灵魂才给1点精华，还不如留下来对对话。
 
@@ -177,15 +177,15 @@ PS：图鉴背景即为维修虫的小房间门外。
 
 这个地图还有一处极为隐蔽的梦境空间，首先来最右边的瀑布顶部，找到缺口后进入，右行至最深处，二段跳来到这个高台上，使用梦剑。
 
-![25](http://q7l2ql4vs.bkt.clouddn.com/25.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-26.jpg)
 
 即可来到一处隐藏空间，这个大门走进去是**信仰者神龛**，里面全是墓碑。
 
-![image-20200408183607217](http://q7l2ql4vs.bkt.clouddn.com/image-20200408183607217.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-27.jpg)
 
 每一个墓碑都是一位参与游戏众筹的玩家送给我们的话，樱桃工作室真的是非常有心了。这里截取最中间的一段话，其他的对话大家就自行查看把。
 
-![image-20200408184014080](http://q7l2ql4vs.bkt.clouddn.com/image-20200408184014080.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-28.jpg)
 
 以及这里的墓碑是可以被破坏的，如果你破坏了全部的墓碑，门口的蛾子老爷爷会对你进行谴责，可以自己试试看。放心下次进入地图墓碑会被修复，不用担心再也看不到了。
 
@@ -197,7 +197,7 @@ PS：图鉴背景即为维修虫的小房间门外。
 
 诸神堂二楼，辐光房间的门口。在A点处使用大冲，在图中小骑士处，紧急制动，接一个二段跳，到B点位置，向上普攻几下即可打开隐藏通路。
 
-![image-20200408193259148](http://q7l2ql4vs.bkt.clouddn.com/image-20200408193259148.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-29.jpg)
 
 上楼之后普攻左侧的墙壁，触发动画，显示一座左特的小雕像，由雕像处进入战斗。战斗开始后，在左特烦人的歌声中，会不断刷新各式各样的左特怪物，直至你战死。左下角有击杀数量统计，在战斗中至少击杀57个左特，即可获得奖励。一般都是打到60个就自杀退出了，有毅力的可以考虑无限打下去23333
 
@@ -205,11 +205,11 @@ PS：图鉴背景即为维修虫的小房间门外。
 
 初始状态下，雕像是**银色**的，在战斗中累计击杀57个以上的左特，即可变成下图的**金色**雕像。为什么是57个呢，因为对应了左特日常对话中，他自己瞎编的57条戒律。
 
-![image-20200408194002764](http://q7l2ql4vs.bkt.clouddn.com/image-20200408194002764.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-30.jpg)
 
 除了雕像的颜色之外，击杀57个以上的左特，我们还会获得一个左特专属游戏主菜单背景图，背景音乐也是左特的哼小曲。样式如下。
 
-![image-20200408200538917](http://q7l2ql4vs.bkt.clouddn.com/image-20200408200538917.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-31.jpg)
 
 ## 0x09 重量级隐藏区域
 
@@ -217,19 +217,19 @@ PS：图鉴背景即为维修虫的小房间门外。
 
 地点：站在护符编织者之歌所在的平台，先向左放一个黑波，再一个大冲进去。接下来的路自己探索吧，很小的一个房间，锻炼下自己2333
 
-![30-1](http://q7l2ql4vs.bkt.clouddn.com/30-1.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-32.jpg)
 
 ### 格林的屋顶
 
 地点：梦魇格林睡觉处起，左数第三个凹槽上方。正常情况是没有这层红色结界的，在此处释放法术就会触发结界。
 
-![31](http://q7l2ql4vs.bkt.clouddn.com/31.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-33.jpg)
 
 ### 收藏家的壁画
 
 地点：爱之塔，拿毛毛虫地图那层，中间部位向上跳。
 
-![32](http://q7l2ql4vs.bkt.clouddn.com/32.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-34.jpg)
 
 ### 收藏家的卧室
 
@@ -241,4 +241,4 @@ PS：图鉴背景即为维修虫的小房间门外。
 
 地点：普通白宫，最后一段超长的大冲之后，上台阶到顶部。左边是电梯，右边是回蓝的白王雕像。在雕像左侧下砸，即可进入。
 
-![33](http://q7l2ql4vs.bkt.clouddn.com/33.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-01-空洞进阶-35.jpg)

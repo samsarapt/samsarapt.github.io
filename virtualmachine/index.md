@@ -82,7 +82,7 @@ Windows用户在安装软件之前，需要进入BIOS确认自己已经开启Hyp
 
 + Windows系统也是区分CPU位数的，分别为x86和x64，也就是我们口中的32位和64位，一般情况下，有64位就选64位。如果你的主机还是32位的，emmmmm，你可以不用看下去了，先换台电脑吧
 
-![win镜像下载.png](https://i.loli.net/2020/03/30/irw91jU3QZuNnAR.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-23-虚拟机-2.jpg)
 
 ### MacOS镜像下载
 
@@ -126,7 +126,7 @@ MacOS安装Win10虚拟机教学视频-bilibili。[点击传送](https://www.bili
 
 Parallels Desktop的快照功能在顶部菜单的【操作】下拉栏内，VMware Workstation的快照功能在顶部菜单的【虚拟机】下拉栏内，具体如下图。
 
-![创建快照.png](https://i.loli.net/2020/03/30/lKLnQXhBtoJfUHI.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-23-虚拟机-1.jpg)
 
 ### 创建共享文件夹
 

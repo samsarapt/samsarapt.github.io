@@ -20,7 +20,7 @@
 + A点：BOSS叛逃领主
 + B点：白后
 
-![image-20200406161951712](http://q7l2ql4vs.bkt.clouddn.com/image-20200406161951712.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-1.jpg)
 
 ### 白色碎片B
 
@@ -30,44 +30,44 @@
 
 成功通过白宫之后，获得白色碎片B。将白色碎片A+B拼合之后，即可获得护符：**国王之魂**。
 
-图
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-2.jpg)
 
 ### 虚空之心
 
 要开启之后的其他结局路线，我们需要回到我们的出生地，将**国王之魂染成虚空之心**。佩戴国王之魂来到深渊的最下方，如图。
 
-![image-20200406170419402](http://q7l2ql4vs.bkt.clouddn.com/image-20200406170419402.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-3.jpg)
 
 向下进入出生地，一番探索之后来到下图所示位置，用梦剑击打黑球。完成一段跳跳乐之后，即可获得护符虚空之心。
 
-![image-20200406170733691](http://q7l2ql4vs.bkt.clouddn.com/image-20200406170733691.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-4.jpg)
 
 ### 萨鲁巴的祝福
 
 至此我们已经完成所有护符的收集，可以去十字路那个欧巴桑处购买一个buff，名为萨鲁巴的祝福。花费800大洋，效果是当我们坐上椅子上的时候，头顶会出现欧巴桑的小人偶给我们补蓝。购买完成时，这个欧巴桑还会强吻我们，emmmm
 
-![image-20200406171606973](http://q7l2ql4vs.bkt.clouddn.com/image-20200406171606973.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-5.jpg)
 
-![image-20200406171625130](http://q7l2ql4vs.bkt.clouddn.com/image-20200406171625130.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-6.jpg)
 
 ## 0x02 结局二与三
 
 拥有了虚空之心，我们回到十字路的黑卵圣殿。和上次不同的是，这次我们发现小姐姐在门口等着我们，也暗示了小姐姐将会参与我们的战斗。
 
-![image-20200406183414123](http://q7l2ql4vs.bkt.clouddn.com/image-20200406183414123.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-7.jpg)
 
 在黑卵圣殿的椅子上存档之后，进入BOSS战。刚开始的流程和之前的结局一是一样的，直到BOSS进入第二次虚弱状态时，小姐姐会前来加入战斗。
 
-![snipaste_20200406_190428](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200406_190428.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-8.jpg)
 
 小姐姐暂时压制住前辈的这个timing，便是我们做出选择的时候：
 
 + 选择不使用梦之钉，为【结局二】。小姐姐战死，和我们一起被封印在圣殿里。
 
-![image-20200407154139273](http://q7l2ql4vs.bkt.clouddn.com/image-20200407154139273.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-9.jpg)
 + 选择使用梦之钉，为【结局三】。进入梦境世界，挑战最终BOSS--**辐光**。战胜辐光之后，小姐姐免于一死。
 
-![image-20200407154344160](http://q7l2ql4vs.bkt.clouddn.com/image-20200407154344160.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-10.jpg)
 
 ## 0x03 寻神者DLC
 
@@ -75,25 +75,25 @@
 
 坐标竞技场，从休息区的温泉处，上到二楼观战台，可以从右手边出去。
 
-![image-20200406192242205](http://q7l2ql4vs.bkt.clouddn.com/image-20200406192242205.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-11.jpg)
 
 出去后一直走到右下角，发现竞技场的前任王者--**苍白潜伏者**。打法没啥好说的，放几个黑波就GG了，打败他获得一把简单钥匙。
 
-![image-20200406192342029](http://q7l2ql4vs.bkt.clouddn.com/image-20200406192342029.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-12.jpg)
 
 接着来到皇家水道如下位置，一路向左。
 
-![image-20200406193427653](http://q7l2ql4vs.bkt.clouddn.com/image-20200406193427653.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-13.jpg)
 
 经历过几个超级肥的吸虫之后，最终来到这里。用简单钥匙打开这个箱子，用梦剑击打即可进入本次DLC的主要游戏地图--**神居**。
 
-![image-20200406194423684](http://q7l2ql4vs.bkt.clouddn.com/image-20200406194423684.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-14.jpg)
 
 ### 万神殿
 
 来到神居，首先要挑战的就是3个初级万神殿，图如下。
 
-![前三门](http://q7l2ql4vs.bkt.clouddn.com/image-20200406195956627.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-15.jpg)
 
 + 三个门代表三个万神殿
 + 每个万神殿内，你将和你之前打过的BOSS进行车轮战
@@ -103,21 +103,21 @@
 + 3门总计12盏圆形灯，累计亮起8盏圆形灯可以楼下最左侧开启蓝血房间，开启后，每次车轮战中间的温泉休息环节会提供一定数量的蓝血
 + 3门全部0束缚通过即可开启第四门
 
-![第四门](http://q7l2ql4vs.bkt.clouddn.com/image-20200406202541370.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-16.jpg)
 
 第四门0束缚通关，跳到第四门顶部，击打圆球，即可解锁第五门。通过第四门后，一路向上即可到达第五门，进入第五门还需要护符**虚空之心**。
 
-![第五门](http://q7l2ql4vs.bkt.clouddn.com/image-20200406202914472.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-17.jpg)
 
 这里提供一份对战顺序表，阅读顺序从上到下，从左到右。
 
-![对战顺序](http://q7l2ql4vs.bkt.clouddn.com/ea4f40fe97ce3e9c2377c4f0b09535df9c8406ac.jpg@1320w_934h.webp)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-18.jpg)
 
 ### 诸神堂
 
 诸神堂在神居最下方，蓝血房间的隔壁。堂内你可以挑战所有曾经打过的BOSS，每一位BOSS都在这里面对应拥有一座雕像。此处的挑战为**非必须**，一个都不打也不影响游戏流程。
 
-![image-20200406204044290](http://q7l2ql4vs.bkt.clouddn.com/image-20200406204044290.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-19.jpg)
 
 其中，拥有普通形态和梦境形态的BOSS，可以通过用梦剑击打雕像右侧的小圆球进行切换。拥有初级形态和加强形态的BOSS可以通过普攻击打雕像右侧的开关进行切换。
 
@@ -127,31 +127,31 @@
 + 进升级：每次体积碰撞扣血2点
 + 辐辉级：必须全程无伤，碰触立即死亡
 
-![image-20200406204412921](http://q7l2ql4vs.bkt.clouddn.com/image-20200406204412921.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-20.jpg)
 
 在门口的牌子上可以看到全部雕像的挑战情况。
 
-![image-20200406204744746](http://q7l2ql4vs.bkt.clouddn.com/image-20200406204744746.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-21.jpg)
 
 诸神堂底部最右侧小房间，全员达到调谐级即可打开。里面是一座雕像，雕像形象根据当前的挑战进度决定。全员达到调谐级、进升级、辐辉级对应3种不同的形象。
 
-![snipaste_3合一](http://q7l2ql4vs.bkt.clouddn.com/snipaste_3合一.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-22.jpg)
 
 ### 结局四
 
 第五门0束缚通关即可达成【结局四】，整个神居和寻神者被黑暗所吞噬。
 
-![image-20200407154930433](http://q7l2ql4vs.bkt.clouddn.com/image-20200407154930433.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-23.jpg)
 
 ### 结局五
 
 在皇后花园的螳螂坟头采花送给寻神者，随后0束缚通关第五门，即可达成【结局五】。
 
-![image-20200407155103798](http://q7l2ql4vs.bkt.clouddn.com/image-20200407155103798.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-24.jpg)
 
 神居虽被黑暗吞噬，但是寻神者手中纯洁的花净化了黑暗。
 
-![image-20200407155235277](http://q7l2ql4vs.bkt.clouddn.com/image-20200407155235277.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-25.jpg)
 
 ## 0x04 获取全成就
 
@@ -182,7 +182,7 @@
 
 成就**黑色浪漫**：上文中有提及，如果没有选择搭救左特，就无法挑战BOSS--**灰色王子左特**，也无法达成这项成就。选择搭救左特，在真菌荒地找到小迷妹之后，在德特茅斯小迷妹的家中可以挑战这个BOSS。
 
-![snipaste_20200408_131908](http://q7l2ql4vs.bkt.clouddn.com/snipaste_20200408_131908.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-26.jpg)
 
 如上图，在此处用梦剑进入挑战，可以反复挑战，成功挑战一次即可获得成就。每成功挑战一次，便会点亮一盏灯，同时下一次挑战的难度提升。成功挑战4次之后，即点亮4盏灯，可触发迷妹远走他乡的剧情。
 
@@ -209,7 +209,7 @@
 
 成就**真正的猎人**：在敏锐的猎人达成条件的基础上，每个怪物还需杀死相应的数量后，回到苍绿之径与猎人进行对话，即可获得。同时还将获得一条额外的图鉴内容--**猎人的标记**
 
-![猎人](http://q7l2ql4vs.bkt.clouddn.com/猎人.jpg)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-31-空洞流程-06-27.jpg)
 
 ### 限制条件通关成就
 

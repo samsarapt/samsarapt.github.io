@@ -24,7 +24,7 @@ Hugo的缺点也非常明显。首先就是搭建过程十分的劝退零计算�
 
 打开Hugo的GitHub项目地址 。  [点击传送](https://github.com/gohugoio/hugo/releases "超链接title")
 
-![hugo下载.png](https://i.loli.net/2020/03/28/cHsClzJDyZXKh6B.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-5.jpg)
 
 在页面中选择最上面的那个版本，点击hugo_版本号_Windows-32bit.zip  或者  hugo_版本号_Windows-64bit.zip进行下载，具体哪个看自己电脑的位数，现在基本都是64bit了。点击之后就会立刻开始下载，GitHub的下载速度有时候比较感人，耐心等等吧。
 
@@ -40,7 +40,7 @@ Hugo的缺点也非常明显。首先就是搭建过程十分的劝退零计算�
 
 首先照例进入官网。[点击传送](https://git-scm.com/ "超链接title")
 
-![git官网.png](https://i.loli.net/2020/03/28/s9IcHy2dWlLkvJE.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-12.jpg)
 
 网页应该会自动识别你的系统和版本，直接点击页面中的  **Download 版本号 for 系统名**  下载就完事了。下载完成之后获得一个exe文件，双击打开，国际惯例除了指定安装目录之外无脑下一步就完事了。如果你非常在意细节，可以参考这篇文章。[点击传送](https://www.cnblogs.com/zzzxing/p/12515477.html "超链接title")
 
@@ -68,21 +68,21 @@ hugo new site mysite
 
 没有出现错误的情况如下图所示
 
-![创建项目.png](https://i.loli.net/2020/03/28/3snJH8iNXR9u2jY.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-1.jpg)
 
 其中**mysite**可以换成你想要起的任何英文名字，我这里用的名字是**blogtest**，回车之后便可以在**Sites**文件夹内看到我们刚刚创建好的项目文件夹，打开结构如下。
 
-![主题目录.png](https://i.loli.net/2020/03/28/bwOqQX639xUV5Ie.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-4.jpg)
 
 ### 安装主题
 
 首先你需要去商城挑选一个主题。[点击传送](https://themes.gohugo.io/ "超链接title")
 
-![主题详情页.png](https://i.loli.net/2020/03/28/jMSJzypP9RHrWeA.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-7.jpg)
 
 看中哪个主题就直接点击进入详情页，点击**Demo**可以查看案例，对案例感觉满意就返回，点击**Download**即可进入该主题的GitHub仓库，在浏览器地址栏把这个地址复制下来。
 
-![复制地址.png](https://i.loli.net/2020/03/28/u3EZTws8HPA7JOC.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-13.jpg)
 
 回到CMD，输入
 
@@ -96,7 +96,7 @@ cd blogtest/themes
 git clone 你刚才复制的主题地址
 ```
 
-![下载主题.png](https://i.loli.net/2020/03/28/myJ6XaTWYBxt45K.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-9.jpg)
 
 没啥意外等进度条走完就行了，GitHub有时候会抽风出现403，多试几次就好了23333。安装之后themes文件内就多了一个你刚刚下好的主题文件夹，之后对于主题的所有修改都在这个主题文件夹里面完成。
 
@@ -104,7 +104,7 @@ git clone 你刚才复制的主题地址
 
 打开主题文件夹，直接用搜索在里面找一个名为**config.toml**的文件，把它复制到你的博客项目的根目录下。
 
-![搜索.png](https://i.loli.net/2020/03/28/EKwVe2Pg5rjlYnM.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-6.jpg)
 
 根目录下有一个同名文件，直接替换掉就好了。如果你不是很热衷于魔改的话，到这里关于主题的配置就结束了，如果你想进行一些客制化，可以自行百度，hugo的缺点就是文档缺的厉害，只能参考别人的经验自己一点点摸索了。这里提供一份参考：[点击传送](https://dp2px.com/2019/09/04/hugo-config/ "超链接title")
 
@@ -132,11 +132,11 @@ cd ..
 hugo new posts/first.md
 ```
 
-![创建文章.png](https://i.loli.net/2020/03/28/bQve2PcT3BIOzW4.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-3.jpg)
 
 创建Markdown文件成功之后，你会在自己博客项目的根目录下的**content文件夹**中发现多了一个**posts文件夹**，你刚才创建的Markdown文件就在里面。这就是你的第一篇博文了，用Typora打开这个md文件，你就可以开始在里面编辑内容了。我们先随便写点东西在里面方便本次测试的时候看效果。
 
-![md编辑.png](https://i.loli.net/2020/03/28/Ptf7SmAqkYTwRpK.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-11.jpg)
 
 这里有两点需要注意：
 
@@ -160,7 +160,7 @@ hugo new posts/first.md
 hugo server
 ```
 
-![运行成功.png](https://i.loli.net/2020/03/28/oJ1IWHsjAzp56wh.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-10.jpg)
 
 回车之后如果没有报错，打开浏览器输入
 
@@ -186,7 +186,7 @@ http://localhost:1313
 
 国际惯例打开官网。[点击传送](https://github.com/ "超链接title")
 
-![创建仓库第一步.png](https://i.loli.net/2020/03/28/KBrpo3gS2MmVy7C.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-8.jpg)
 
 登录之后点击右上角的头像左边的小加号，点击**New repository**，进入创建仓库页面。其中**Repository name**这一项的建议写法为：
 
@@ -194,13 +194,13 @@ http://localhost:1313
 GitHub用户名.github.io
 ```
 
-![创建仓库第二步.png](https://i.loli.net/2020/03/28/6mpyUkCcjrIOxnt.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-2.jpg)
 
 你的GitHub用户名就是左边**Owner**那栏里面的内容，然后权限选择**Public**，点击**Create repository**即可。
 
 页面跳转进入新建好的仓库界面，记录下这个仓库的地址。
 
-![复制仓库地址.png](https://i.loli.net/2020/03/28/x5zWLmgBfHJwGFa.png)
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-03-19-创建hugo-01-14.jpg)
 
 ### 上传项目
 
