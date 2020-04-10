@@ -96,7 +96,7 @@ HTML5自带的视频播放器，可以实现一些基础的功能。
 	   loop
 	   muted
 	   poster="图片地址"
-	   preload
+	   preload="none"
 	   >
 	<source src="mp4文件地址"  type="video/mp4">
   	<source src="ogg文件地址"  type="video/ogg">
@@ -107,11 +107,11 @@ HTML5自带的视频播放器，可以实现一些基础的功能。
 
 + autoplay：自动播放，不要则不写
 + controls：显示进度条控制栏，不写不显示
-+ height / width：播放器尺寸，可使用px、em、rem、百分百，不写为原视频尺寸
++ height / width：播放器尺寸，可使用px、em、rem、百分百，建议写100%
 + loop：循环播放，不要则不写
 + muted：默认静音，不要则不写
 + poster：预览图片，类似于视频封面，不要则不写
-+ preload：预加载，建议个人云存储用户别开
++ preload：预加载，建议个人云存储用户别开，写none
 + mp4 / ogg / webm：三种视频格式，基本上只写mp4就好了
 + 如果强行引了一个音频的地址，视频播放器将变成下文的音频播放器，可以正常播放音频
 
@@ -129,10 +129,12 @@ Video.js Demo下载。[点击传送](http://www.jq22.com/jquery-info404)
 
 ### 基础效果展示
 
-<video controls loop preload poster="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2470545752,1397828946&fm=26&gp=0.jpg">
-	<source src="//fs.mv.web.kugou.com/202004110010/e2759cd81fe49e6a0ebfedc1854d2e61/G092/M03/0A/05/_IYBAFu8JreAKF59AVrqpDCbUYg147.mp4"  type="video/mp4">
+<video controls  preload="none"
+width="100%"       poster="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2470545752,1397828946&fm=26&gp=0.jpg">
+	<source src="//q7l2ql4vs.bkt.clouddn.com/mp4demo.mp4"  type="video/mp4">
     在这里写文字，可以提示那些浏览器不支持此标签的用户。
   </video>
+
 
 
 
@@ -179,9 +181,10 @@ Audio.js Demo 下载。[点击传送](http://www.jq22.com/jquery-info10248)
 ### 基础效果展示
 
 <audio controls preload>
-	<source src="http://m7.music.126.net/20200411002620/1dd6d414ab4e2c6e877bf98d9da9784b/ymusic/010b/0359/540b/6a5c4563784308d123d4cae91f5bf0a8.mp3"  type="audio/mpeg">
+	<source src="//q7l2ql4vs.bkt.clouddn.com/mp3demo.mp3"  type="audio/mpeg">
     在这里写文字，可以提示那些浏览器不支持此标签的用户。
   </audio>
+
 
 
 
