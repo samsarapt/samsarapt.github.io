@@ -1,4 +1,4 @@
-# 空洞骑士完全指南--轻松全成就VI
+# 空洞骑士全成就指南 VI
 
 
 {{< admonition summary "Tips" false >}}
