@@ -37,8 +37,10 @@
         width="750" 
         height="110" 
         loading="lazy" 
-        sandbox="allow-popups allow-scripts allow-same-origin" 	     		       			src="https://www.xiami.com/webapp/embed-player?autoPlay=1&id=59454"
-        ></iframe>
+        sandbox="allow-popups allow-scripts allow-same-origin" 	     		  
+        src="https://www.xiami.com/webapp/embed-player?autoPlay=1&id=59454"
+        >
+</iframe>
 ```
 
 将这段代码粘贴到你html页面中的相应位置即可完成嵌入。如果想在博文中嵌入，直接将这段代码复制到你的Markdown文件里即可。下面的全部代码同理，下文不再赘述。
@@ -49,15 +51,19 @@
 
 其他平台的操作都大同小异，不是星际玩家应该都能顺利找到对应的外链分享按钮。不过一些平台的确是没有这个功能的，比如QQ音乐。
 
+以及上述代码最好套在一个div里，自己写个css稍微控制一下样式，不然看起来还是会有点奇怪2333
+
 ### 效果展示
 
 虾米音乐-demo：
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="750" height="110" loading="lazy" sandbox="allow-popups allow-scripts allow-same-origin" src="https://www.xiami.com/webapp/embed-player?autoPlay=1&id=59454"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" loading="lazy" sandbox="allow-popups allow-scripts allow-same-origin" src="https://www.xiami.com/webapp/embed-player?autoPlay=1&id=59454"></iframe>
 
 bilibil-demo：
 
+<div class="bilibili">
 <iframe src="//player.bilibili.com/player.html?aid=285093269&bvid=BV1xc411h7uF&cid=171365567&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
 
 
 
@@ -123,14 +129,11 @@ Video.js Demo下载。[点击传送](http://www.jq22.com/jquery-info404)
 
 ### 基础效果展示
 
-<video controls
-	   loop
-	   poster="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2470545752,1397828946&fm=26&gp=0.jpg"
-	   preload
-	   >
-	<source src="http://fs.mv.web.kugou.com/202004110010/e2759cd81fe49e6a0ebfedc1854d2e61/G092/M03/0A/05/_IYBAFu8JreAKF59AVrqpDCbUYg147.mp4"  type="video/mp4">
+<video controls loop preload poster="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2470545752,1397828946&fm=26&gp=0.jpg">
+	<source src="//fs.mv.web.kugou.com/202004110010/e2759cd81fe49e6a0ebfedc1854d2e61/G092/M03/0A/05/_IYBAFu8JreAKF59AVrqpDCbUYg147.mp4"  type="video/mp4">
     在这里写文字，可以提示那些浏览器不支持此标签的用户。
   </video>
+
 
 
 
@@ -138,7 +141,7 @@ Video.js Demo下载。[点击传送](http://www.jq22.com/jquery-info404)
 
 HTML5自带的音频播放器，可以实现一些基础的功能。
 
-优缺点与&lt;video&gt;标签大同小异，不再赘述。
+优缺点与&lt;video&gt;标签大同小异，不再赘述,外加一点。
 
 ### 基础使用方法
 
