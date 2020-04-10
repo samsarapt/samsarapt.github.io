@@ -6,10 +6,19 @@
     <description>Recent content in Posts on pt&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Apr 2020 10:16:27 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 03:12:54 +0800</lastBuildDate>
     
 	<atom:link href="https://ptchen.online/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何在博客中嵌入音/视频</title>
+      <link>https://ptchen.online/blogplayer/</link>
+      <pubDate>Fri, 03 Apr 2020 03:12:54 +0800</pubDate>
+      
+      <guid>https://ptchen.online/blogplayer/</guid>
+      <description>0x01 &amp;lt;iframe&amp;gt;标签 &amp;lt;iframe&amp;gt;标签的作用是在一个html页面中，嵌入另一个html页面，说的通俗一点就是套娃</description>
+    </item>
     
     <item>
       <title>空洞骑士支线与隐藏区域</title>
