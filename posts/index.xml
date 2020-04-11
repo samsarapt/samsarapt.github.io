@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on pt&#39;s blog</title>
-    <link>https://ptchen.online/posts/</link>
+    <link>http://ptchen.online/posts/</link>
     <description>Recent content in Posts on pt&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 03 Apr 2020 03:12:54 +0800</lastBuildDate>
     
-	<atom:link href="https://ptchen.online/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ptchen.online/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何在博客中嵌入音/视频</title>
-      <link>https://ptchen.online/blogplayer/</link>
+      <link>http://ptchen.online/blogplayer/</link>
       <pubDate>Fri, 03 Apr 2020 03:12:54 +0800</pubDate>
       
-      <guid>https://ptchen.online/blogplayer/</guid>
+      <guid>http://ptchen.online/blogplayer/</guid>
       <description>0x01 &amp;lt;iframe&amp;gt;标签 &amp;lt;iframe&amp;gt;标签的作用是在一个html页面中，嵌入另一个html页面，说的通俗一点就是套娃</description>
     </item>
     
     <item>
       <title>空洞骑士支线与隐藏区域</title>
-      <link>https://ptchen.online/hollowknight07/</link>
+      <link>http://ptchen.online/hollowknight07/</link>
       <pubDate>Wed, 01 Apr 2020 10:16:27 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight07/</guid>
+      <guid>http://ptchen.online/hollowknight07/</guid>
       <description>Tips 本篇教程主要列举不包含在112%完成度中的额外任务，并提供部分指导 仅整理部分个人认为最有价值的隐藏地点 因为这个游戏满地图都是隐藏 0x01 满世界送</description>
     </item>
     
     <item>
       <title>空洞骑士全成就指南 VI</title>
-      <link>https://ptchen.online/hollowknight06/</link>
+      <link>http://ptchen.online/hollowknight06/</link>
       <pubDate>Tue, 31 Mar 2020 14:16:27 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight06/</guid>
+      <guid>http://ptchen.online/hollowknight06/</guid>
       <description>Tips 本系列的教程不会非常仔细的标注路线，因为我认为探图是这个游戏的乐趣之一 本系列教程仅说明完成游戏全成就的流程，不对剧情进行讨论 想了解剧情，多</description>
     </item>
     
     <item>
       <title>空洞骑士全成就指南 V</title>
-      <link>https://ptchen.online/hollowknight05/</link>
+      <link>http://ptchen.online/hollowknight05/</link>
       <pubDate>Mon, 30 Mar 2020 03:16:27 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight05/</guid>
+      <guid>http://ptchen.online/hollowknight05/</guid>
       <description>Tips 本系列的教程不会非常仔细的标注路线，因为我认为探图是这个游戏的乐趣之一 本系列教程仅说明完成游戏全成就的流程，不对剧情进行讨论 想了解剧情，多</description>
     </item>
     
     <item>
       <title>空洞骑士全成就指南 IV</title>
-      <link>https://ptchen.online/hollowknight04/</link>
+      <link>http://ptchen.online/hollowknight04/</link>
       <pubDate>Sun, 29 Mar 2020 12:16:27 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight04/</guid>
+      <guid>http://ptchen.online/hollowknight04/</guid>
       <description>Tips 本系列的教程不会非常仔细的标注路线，因为我认为探图是这个游戏的乐趣之一 本系列教程仅说明完成游戏全成就的流程，不对剧情进行讨论 想了解剧情，多</description>
     </item>
     
     <item>
       <title>空洞骑士全成就指南 III</title>
-      <link>https://ptchen.online/hollowknight03/</link>
+      <link>http://ptchen.online/hollowknight03/</link>
       <pubDate>Sat, 28 Mar 2020 07:14:27 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight03/</guid>
+      <guid>http://ptchen.online/hollowknight03/</guid>
       <description>Tips 本系列的教程不会非常仔细的标注路线，因为我认为探图是这个游戏的乐趣之一 本系列教程仅说明完成游戏全成就的流程，不对剧情进行讨论 想了解剧情，多</description>
     </item>
     
     <item>
       <title>空洞骑士全成就指南 II</title>
-      <link>https://ptchen.online/hollowknight02/</link>
+      <link>http://ptchen.online/hollowknight02/</link>
       <pubDate>Fri, 27 Mar 2020 15:21:24 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight02/</guid>
+      <guid>http://ptchen.online/hollowknight02/</guid>
       <description>Tips 本系列的教程不会非常仔细的标注路线，因为我认为探图是这个游戏的乐趣之一 本系列教程仅说明完成游戏全成就的流程，不对剧情进行讨论 想了解剧情，多</description>
     </item>
     
     <item>
       <title>空洞骑士全成就指南 I</title>
-      <link>https://ptchen.online/hollowknight01/</link>
+      <link>http://ptchen.online/hollowknight01/</link>
       <pubDate>Thu, 26 Mar 2020 10:44:24 +0800</pubDate>
       
-      <guid>https://ptchen.online/hollowknight01/</guid>
+      <guid>http://ptchen.online/hollowknight01/</guid>
       <description>Tips 本系列的教程不会非常仔细的标注路线，因为我认为探图是这个游戏的乐趣之一 本系列教程仅说明完成游戏全成就的流程，不对剧情进行讨论 想了解剧情，多</description>
     </item>
     
     <item>
       <title>Windows / MacOS下虚拟机搭建</title>
-      <link>https://ptchen.online/virtualmachine/</link>
+      <link>http://ptchen.online/virtualmachine/</link>
       <pubDate>Mon, 23 Mar 2020 18:57:24 +0800</pubDate>
       
-      <guid>https://ptchen.online/virtualmachine/</guid>
+      <guid>http://ptchen.online/virtualmachine/</guid>
       <description>0x00 前言 什么是虚拟机 虚拟机，顾名思义就是虚拟出来的机器 （废话）。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出</description>
     </item>
     
     <item>
       <title>Hugo零基础搭建--更新与维护</title>
-      <link>https://ptchen.online/createhugo02/</link>
+      <link>http://ptchen.online/createhugo02/</link>
       <pubDate>Sat, 21 Mar 2020 12:12:54 +0800</pubDate>
       
-      <guid>https://ptchen.online/createhugo02/</guid>
+      <guid>http://ptchen.online/createhugo02/</guid>
       <description>0x00 前言 根据上一篇的教学，你的在线博客基本已经算是搭建完成了。这次讲的是给博客添加留言板功能、日常更新博文的操作和一些小细节方面的优化。 0x01 添加</description>
     </item>
     
     <item>
       <title>Hugo零基础搭建--Demo发布</title>
-      <link>https://ptchen.online/createhugo01/</link>
+      <link>http://ptchen.online/createhugo01/</link>
       <pubDate>Thu, 19 Mar 2020 12:18:44 +0800</pubDate>
       
-      <guid>https://ptchen.online/createhugo01/</guid>
+      <guid>http://ptchen.online/createhugo01/</guid>
       <description>0x00 前言 本篇教程仅针侧重点在于Hugo静态博客的本地环境搭建、本地demo创建和发布到GitHub Pages的一个过程，适合纯小白阅读。如果你</description>
     </item>
     
