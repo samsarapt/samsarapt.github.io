@@ -6,17 +6,26 @@
     <description>Recent content in 二年级计算机知识 on pt&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2020 18:57:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 09:42:54 +0800</lastBuildDate>
     
 	<atom:link href="http://ptchen.online/categories/%E4%BA%8C%E5%B9%B4%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>图片压缩的常见方式</title>
+      <link>http://ptchen.online/2020-04-06-imgcompression/</link>
+      <pubDate>Mon, 06 Apr 2020 09:42:54 +0800</pubDate>
+      
+      <guid>http://ptchen.online/2020-04-06-imgcompression/</guid>
+      <description>0x01 压缩图片N个理由 云存储相关 现在的本地硬盘容量基本已经十分廉价了，但是云存储的费用还是有点小贵。压缩图片可以节约我们的云存储空间，以及减少每</description>
+    </item>
+    
+    <item>
       <title>Windows / MacOS下虚拟机搭建</title>
-      <link>http://ptchen.online/virtualmachine/</link>
+      <link>http://ptchen.online/2020-03-23-virtualmachine/</link>
       <pubDate>Mon, 23 Mar 2020 18:57:24 +0800</pubDate>
       
-      <guid>http://ptchen.online/virtualmachine/</guid>
+      <guid>http://ptchen.online/2020-03-23-virtualmachine/</guid>
       <description>0x00 前言 什么是虚拟机 虚拟机，顾名思义就是虚拟出来的机器 （废话）。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出</description>
     </item>
     
