@@ -57,13 +57,13 @@
 
 + [Imagine](https://github.com/meowtec/Imagine/releases)
 
-支持PNG、JPEG、WEBP格式，支持批量，支持中文，界面简洁，压缩效果好，基本不失真。
+支持Windows和MacOS，支持PNG、JPEG、WEBP格式，支持批量，支持中文，界面简洁，压缩效果好，基本不失真。
 
 ![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-5.png)
 
 + [智图](https://zhitu.isux.us/index.php/preview/download)
 
-智图是腾讯ISUX前端团队开发的一个专门用于图片压缩和图片格式转换的平台，其功能包括针对PNG，JPG，GIF等各类格式图片的压缩，以及为上传图片自动选择最优的图片格式。同时，智图平台还会为用户转换一份WEBP格式的图片。这个虽然也有网页版，不过还是推荐离线版。
+智图是腾讯ISUX前端团队开发的一个专门用于图片压缩和图片格式转换的平台，其功能包括针对PNG，JPG，GIF等各类格式图片的压缩，以及为上传图片自动选择最优的图片格式。同时，智图平台还会为用户转换一份WEBP格式的图片。这个虽然也有网页版，不过还是推荐离线版，支持Windows和MacOS。
 
 ![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-6.png)
 
