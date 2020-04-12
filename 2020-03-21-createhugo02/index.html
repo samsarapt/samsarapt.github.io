@@ -9,7 +9,7 @@
         <meta name="Description" content="Chenpt的博客"><meta property="og:title" content="Hugo零基础搭建--更新与维护" />
 <meta property="og:description" content="0x00 前言 根据上一篇的教学，你的在线博客基本已经算是搭建完成了。这次讲的是给博客添加留言板功能、日常更新博文的操作和一些小细节方面的优化。 0x01 添加" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://ptchen.online/2020-03-21-createhugo02/" />
+<meta property="og:url" content="https://ptchen.online/2020-03-21-createhugo02/" />
 <meta property="article:published_time" content="2020-03-21T12:12:54+08:00" />
 <meta property="article:modified_time" content="2020-03-21T12:12:54+08:00" />
 <meta name="twitter:card" content="summary"/>
@@ -17,7 +17,7 @@
 <meta name="twitter:description" content="0x00 前言 根据上一篇的教学，你的在线博客基本已经算是搭建完成了。这次讲的是给博客添加留言板功能、日常更新博文的操作和一些小细节方面的优化。 0x01 添加"/>
 <meta name="theme-color" content="#ffffff">
 <meta name="msapplication-TileColor" content="#da532c">
-<link rel="canonical" href="http://ptchen.online/2020-03-21-createhugo02/" />
+<link rel="canonical" href="https://ptchen.online/2020-03-21-createhugo02/" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,7 +25,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-<link href='https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=PT+Sans&display=swap' rel='stylesheet' type='text/css' /><link rel="prev" href="http://ptchen.online/2020-03-19-createhugo01/" /><link rel="next" href="http://ptchen.online/2020-03-23-virtualmachine/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+<link href='https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=PT+Sans&display=swap' rel='stylesheet' type='text/css' /><link rel="prev" href="https://ptchen.online/2020-03-19-createhugo01/" /><link rel="next" href="https://ptchen.online/2020-03-23-virtualmachine/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -33,19 +33,19 @@
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/ptchen.online\/2020-03-21-createhugo02\/"
+            "@id": "https:\/\/ptchen.online\/2020-03-21-createhugo02\/"
         },"image": {
                 "@type": "ImageObject",
-                "url": "http:\/\/ptchen.online\/cover.png",
+                "url": "https:\/\/ptchen.online\/cover.png",
                 "width":  800 ,
                 "height":  600 
             },"genre": "posts","keywords": "Hugo, Blog","wordcount":  5203 ,
-        "url": "http:\/\/ptchen.online\/2020-03-21-createhugo02\/","datePublished": "2020-03-21","dateModified": "2020-03-21","publisher": {
+        "url": "https:\/\/ptchen.online\/2020-03-21-createhugo02\/","datePublished": "2020-03-21","dateModified": "2020-03-21","publisher": {
                 "@type": "Organization",
                 "name": "ptchen",
                 "logo": {
                 "@type": "ImageObject",
-                "url": "http:\/\/ptchen.online\/logo.png",
+                "url": "https:\/\/ptchen.online\/logo.png",
                 "width":  127 ,
                 "height":  40 
                 }
@@ -370,7 +370,7 @@ git push -u origin master
 <p>注册之后在相应的服务商里选择域名购买，不是星际玩家的话相信你可以看到购买域名的入口的，可以挑一些自己喜欢的英文组合，然后挑选一个相对便宜一点的后缀名，基本上8-30块就可以买一年的了，当然如果你不在乎钱的话，那就随便挑买10年！这里以阿里云为例子，域名购买完之后实名认证一下，不要在意什么个人信息泄漏了，马爸爸知道的你的家底还少吗。</p>
 <h3 id="ssl证书">SSL证书</h3>
 <p>关于SSL证书，只需要知道如果拥有证书，可以让别人访问你的网站时更加安全。至于这个安全性，个人认为对于一个小博客来说，其实没有什么太大的意义。加不加证书的主要区别是你的博客地址的区别，有证书以https开头，没有则以http开头。以及没有证书的域名，使用浏览器访问的时候会显示<strong>不安全</strong>的字样。</p>
-<p>这里还要特别说明一点，如果你的域名带有证书，就是以https开头。此时如果你的博客内引用了一张http开头的图片链接，比如七牛云的免费图床链接都是以http开头的，这种情况叫混合内容加载，那么有可能你会无法加载这张图片，导致图片无法正常显示。关于混合内容的具体请移步这篇文章。<a href="http://ptchen.online/2020-04-05-mixedcontent/" target="_blank" rel="noopener noreffer">点击传送</a>
+<p>这里还要特别说明一点，如果你的域名带有证书，就是以https开头。此时如果你的博客内引用了一张http开头的图片链接，比如七牛云的免费图床链接都是以http开头的，这种情况叫混合内容加载，那么有可能你会无法加载这张图片，导致图片无法正常显示。关于混合内容的具体请移步这篇文章。<a href="https://ptchen.online/2020-04-05-mixedcontent/" target="_blank" rel="noopener noreffer">点击传送</a>
 </p>
 <p>决定加证书的朋友，如果你正经去购买证书的话一年要一千大洋，这里分享一个可以白嫖一年证书的方法，可循环使用，永动白嫖。这篇教程（<a href="https://blog.csdn.net/qq_42622433/article/details/105015677?fps=1&amp;locationNum=2" title="超链接title" target="_blank" rel="noopener noreffer">点击传送</a>
 ）看到第7步就好，证书成功的和域名绑定上就可以了，剩下的和我们没关系，<strong>特别注意证书绑定的域名不要加<code>www.</code></strong>！！</p>
@@ -522,7 +522,7 @@ git push -u origin master
 			
 			<div class="post-info-share">
 				<span>
-					<a>Share: </a><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://ptchen.online/2020-03-21-createhugo02/" data-title="Hugo零基础搭建--更新与维护" data-hashtags="Hugo,Blog"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://ptchen.online/2020-03-21-createhugo02/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://ptchen.online/2020-03-21-createhugo02/" data-title="Hugo零基础搭建--更新与维护"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="http://ptchen.online/2020-03-21-createhugo02/" data-title="Hugo零基础搭建--更新与维护"><i class="fab fa-evernote fa-fw"></i></a></span>
+					<a>Share: </a><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://ptchen.online/2020-03-21-createhugo02/" data-title="Hugo零基础搭建--更新与维护" data-hashtags="Hugo,Blog"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://ptchen.online/2020-03-21-createhugo02/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://ptchen.online/2020-03-21-createhugo02/" data-title="Hugo零基础搭建--更新与维护"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://ptchen.online/2020-03-21-createhugo02/" data-title="Hugo零基础搭建--更新与维护"><i class="fab fa-evernote fa-fw"></i></a></span>
 			</div>
 		</div>
 		

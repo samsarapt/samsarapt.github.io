@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>虚拟机 on pt&#39;s blog</title>
-    <link>http://ptchen.online/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+    <link>https://ptchen.online/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
     <description>Recent content in 虚拟机 on pt&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 23 Mar 2020 18:57:24 +0800</lastBuildDate>
     
-	<atom:link href="http://ptchen.online/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ptchen.online/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows / MacOS下虚拟机搭建</title>
-      <link>http://ptchen.online/2020-03-23-virtualmachine/</link>
+      <link>https://ptchen.online/2020-03-23-virtualmachine/</link>
       <pubDate>Mon, 23 Mar 2020 18:57:24 +0800</pubDate>
       
-      <guid>http://ptchen.online/2020-03-23-virtualmachine/</guid>
+      <guid>https://ptchen.online/2020-03-23-virtualmachine/</guid>
       <description>0x00 前言 什么是虚拟机 虚拟机，顾名思义就是虚拟出来的机器 （废话）。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出</description>
     </item>
     

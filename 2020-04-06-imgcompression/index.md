@@ -29,27 +29,27 @@
 
 + [Optimizilla](https://imagecompressor.com/zh/)
 
-![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-1.png)
-
 一次可以批量压缩最多20张JPG或PNG图片，压缩完后还可以打包下载，该工具支持中文浏览，习惯中文界面的朋友不妨使用它，压缩完成后还可以调整图片质量，以及预览压缩后的图片。
+
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-1.png)
 
 + [TinyPNG](https://tinypng.com/)
 
-![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-2.png)
-
 一次可以批量压缩最多20张JPG或PNG图片，压缩完后还可以打包下载，不过有时候服务器会抽风。
+
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-2.png)
 
 + [Resize Photos](http://www.resize-photos.com/)
 
-![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-3.png)
+在压缩之前，你可以设置图片的宽度和质量，质量1到100，越小越不清晰。也支持设置格式JPG、PNG、GIF、BMP，压缩完之后还可以给图片增加效果，类似于美图秀秀那种一键美化图片的那种功能。缺点是访问速度有点慢。
 
-在压缩之前，你可以设置图片的宽度，质量（1到100，越小越不清晰）和格式（支持JPG、PNG、GIF、BMP），压缩完之后还可以给图片增加效果，类似于美图秀秀那种一键美化图片的那种功能。缺点是访问速度有点慢。
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-3.png)
 
 + [Docsmall](https://docsmall.com/image-compress)
 
-![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-4.png)
+支持JGP、PNG、批量压缩、打包下载，另外还有PDF压缩、PDF合并、PDF分割，功能比较丰富。
 
-支持jpg、png、批量压缩、打包下载，另外还有PDF压缩、PDF合并、PDF分割，功能比较丰富。
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-4.png)
 
 ### 使用离线小工具
 
@@ -57,15 +57,15 @@
 
 + [Imagine](https://github.com/meowtec/Imagine/releases)
 
-![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-5.png)
-
 支持PNG、JPEG、WEBP格式，支持批量，支持中文，界面简洁，压缩效果好，基本不失真。
+
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-5.png)
 
 + [智图](https://zhitu.isux.us/index.php/preview/download)
 
-![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-6.png)
-
 智图是腾讯ISUX前端团队开发的一个专门用于图片压缩和图片格式转换的平台，其功能包括针对PNG，JPG，GIF等各类格式图片的压缩，以及为上传图片自动选择最优的图片格式。同时，智图平台还会为用户转换一份WEBP格式的图片。这个虽然也有网页版，不过还是推荐离线版。
+
+![](https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-06-imgCompression-6.png)
 
 ### 使用Photoshop脚本
 

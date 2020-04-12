@@ -129,11 +129,12 @@ Video.js Demo下载。[点击传送](http://www.jq22.com/jquery-info404)
 
 ### 基础效果展示
 
-<video controls  preload="none"
-width="100%"       poster="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2470545752,1397828946&fm=26&gp=0.jpg">
-	<source src="//q7l2ql4vs.bkt.clouddn.com/mp4demo.mp4"  type="video/mp4">
+<video controls  preload="none" width="100%"       
+       poster="https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-03-vedioImg.jpg">
+	<source src="https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-03-vedioDemo.mp4"  type="video/mp4">
     在这里写文字，可以提示那些浏览器不支持此标签的用户。
   </video>
+
 
 
 
@@ -181,9 +182,10 @@ Audio.js Demo 下载。[点击传送](http://www.jq22.com/jquery-info10248)
 ### 基础效果展示
 
 <audio controls preload>
-	<source src="//q7l2ql4vs.bkt.clouddn.com/mp3demo.mp3"  type="audio/mpeg">
+	<source src="https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-03-audioDemo.mp3"  type="audio/mpeg">
     在这里写文字，可以提示那些浏览器不支持此标签的用户。
   </audio>
+
 
 
 
@@ -203,6 +205,6 @@ shortcode，翻译过来就是短代码，这并不是Hugo博客的专属，很�
 + 去掉博客域名的SSL证书，全站使用http加载
 + 把资源放到带有SSL证书的桶里，阿里七牛腾讯都可以
 
-第一个方案的缺点就是浏览器会显示我们的网站为**不安全**，也确实会存在一定的安全风险。第二个方案的缺点就**贵**，大家自行斟酌吧。关于混合内容更详细的解读请移步这篇文章。[点击传送](http://ptchen.online/2020-04-05-mixedcontent/)
+第一个方案的缺点就是浏览器会显示我们的网站为**不安全**，也确实会存在一定的安全风险。第二个方案的缺点就**贵**，大家自行斟酌吧。关于混合内容更详细的解读请移步这篇文章。[点击传送](https://ptchen.online/2020-04-05-mixedcontent/)
 
 
