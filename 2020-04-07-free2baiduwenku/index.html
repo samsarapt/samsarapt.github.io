@@ -39,7 +39,7 @@
                 "url": "https:\/\/ptchen.online\/cover.png",
                 "width":  800 ,
                 "height":  600 
-            },"genre": "posts","keywords": "百度文库","wordcount":  2007 ,
+            },"genre": "posts","keywords": "百度文库","wordcount":  2554 ,
         "url": "https:\/\/ptchen.online\/2020-04-07-free2baiduwenku\/","datePublished": "2020-04-07","dateModified": "2020-04-07","publisher": {
                 "@type": "Organization",
                 "name": "ptchen",
@@ -99,8 +99,8 @@
                                 <i class="far fa-folder fa-fw"></i>二年级计算机知识
                             </a></span></div>
             <div class="post-meta-line">
-                <i class="fas fa-pencil-alt fa-fw"></i>约 2007 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>预计阅读 5 分钟&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>约 2554 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>预计阅读 6 分钟&nbsp;
 				<i class="fa fa-mouse-pointer fa-fw"></i>
 					<span id="/2020-04-07-free2baiduwenku/" class="leancloud_visitors" data-flag-title="下载百度文库的常见姿势">
 						<span class="post-meta-item-text">已被点击 </span>
@@ -133,6 +133,7 @@
       <ul>
         <li><a href="#f12大法">F12大法</a></li>
         <li><a href="#利用翻译插件">利用翻译插件</a></li>
+        <li><a href="#禁用javascript">禁用JavaScript</a></li>
         <li><a href="#油猴脚本">油猴脚本</a></li>
       </ul>
     </li>
@@ -278,14 +279,30 @@
         data-src=""
         alt=""
         title="" /></p>
-<h3 id="油猴脚本">油猴脚本</h3>
-<p>如果你的需求就是在浏览器中复制大段文字的话，我只能祭出最大杀器&ndash;<strong>油猴脚本</strong>了。这是一个几乎万能的浏览器插件，你可以通过添加一些别人开发的脚本来实现一些乱七八糟的奇奇怪怪的需求，功能十分丰富。不止复制百度文库，还可以下载百度网盘，下载网站视频等等等等，不是太过分的要求基本上只有你想不到没有它做不到，这个之后会考虑专门写一篇文章来详细介绍油猴脚本，这里先简单说明几点：</p>
+<h3 id="禁用javascript">禁用JavaScript</h3>
+<p>如果你有的需求就是大量的复制文字的话，这里还有一个最佳方案，可以让你想复制多少就复制多少。先说一下原理，所有的网站上面，禁止复制，禁止右键保存这种事情都是用JS文件控制的，只要我们禁止JS文件加载，就可以继续为所欲为。不过现在大部分网站都做了相应的对策，就是如果没有加载出JS文件，网页内容将会无法显示。由于Chrome内核的浏览器禁用JS之后要刷新页面的，所以这个方法对Chrome内核浏览器无效，其他浏览器待测试。大家可以自行测试一下，步骤如下：</p>
 <ul>
-<li>使用油猴脚本是有一定风险的，因为在你不懂源码的情况下，谁也不知道这个JS文件到底做了什么，比如可以监听你的输入，获取你的密码，以及做一些你完全听不懂的危险操作</li>
-<li>基于上一点，这里建议下载一个其他浏览器，专门用于进行油猴脚本操作，我是直接装在虚拟机里了</li>
+<li>打开百度文档页面，关闭该页面的JavaScript（不会请搜索：<strong>XX浏览器关闭JavaScript设置</strong>）</li>
+<li>回到文档页，如果出现<strong>要将更新后的设置应用到此网站，请重新加载此页面</strong>这句提示，即为失败</li>
+</ul>
+<p>目前我个人只发现Mac的Safari浏览器可以支持关闭JS后不用刷新页面即可生效，所以，本方法<strong>仅对Safari浏览器</strong>有效。不是用Mac的，没有Mac虚拟机的可以散了2333</p>
+<p>首先打开一个文档，点击左上方Safari浏览器-&gt;偏好设置-&gt;安全性，把<strong>启用JavaScript</strong>这一项前面的钩去掉即可。接下来就可以为所欲为的复制了，想复制多长就多长。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://ptbuff-1301738307.cos.ap-guangzhou.myqcloud.com/2020-04-07-free2baiduwenku-13-2.png,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" /></p>
+<h3 id="油猴脚本">油猴脚本</h3>
+<p>如果你的需求就是在浏览器中复制大段文字，又搞不到Mac系统的话，我只能祭出最大杀器&ndash;<strong>油猴脚本</strong>了。这是一个几乎万能的浏览器插件，你可以通过添加一些别人开发的脚本来实现一些乱七八糟的奇奇怪怪的需求，功能十分丰富。不止复制百度文库，还可以下载百度网盘，下载网站视频等等等等，不是太过分的要求基本上只有你想不到没有它做不到，这个之后会考虑专门写一篇文章来详细介绍油猴脚本，这里先简单说明几点：</p>
+<ul>
+<li>使用油猴脚本是有一定风险的，因为在你不懂源码的情况下，你也不知道这个JS文件到底做了什么，比如可以监听你的输入，获取你的密码，以及做一些你完全听不懂的危险操作（<strong>小概率事件</strong>）</li>
+<li>基于上一点，这里建议下载一个其他浏览器，专门用于进行油猴脚本操作。我是直接装在虚拟机里了，因为经常要试验一些乱七八糟的脚本，以防万一</li>
 <li>送上一句名言，油猴脚本，<strong>怂别用，用别怂</strong>，23333</li>
 </ul>
-<p>好的回归主题，首先在Chrome商店里面安装这个插件，如果你不能连上谷歌插件商店，也不懂得离线安装插件，那么这里直接劝退，上面老实用上面四种方法就好了。</p>
+<p>好的回归主题，首先在Chrome商店里面安装这个插件，如果你不能连上谷歌插件商店，也不懂得离线安装插件，那么这里直接劝退，上面老实用上面五种方法就好了。</p>
 <p><img
         class="lazyload"
         src="/svg/loading.small.min.svg"
@@ -305,7 +322,7 @@
         alt=""
         title="" /></p>
 <h2 id="0x03-总结">0x03 总结</h2>
-<p>基本上第一章的内容就足够大部分人使用了，硬是写了第二章只是我个人不想写的太水就把自己知道的方法都分享出来了，大家酌情选择吧。</p>
+<p>基本上第一章的内容就足够大部分人使用了，硬是写了第二章只是我个人不想写的太水，就把自己知道的方法都分享出来了，大家酌情选择吧。</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
