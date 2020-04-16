@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>百度网盘 on pt&#39;s blog</title>
+    <link>https://ptchen.com/tags/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/</link>
+    <description>Recent content in 百度网盘 on pt&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 11 Apr 2020 23:12:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://ptchen.com/tags/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于百度网盘的一些小技巧</title>
+      <link>https://ptchen.com/2020-04-11-aboutbaidupan/</link>
+      <pubDate>Sat, 11 Apr 2020 23:12:54 +0800</pubDate>
+      
+      <guid>https://ptchen.com/2020-04-11-aboutbaidupan/</guid>
+      <description>0x01 获取链接 百度网盘作为国内第一大网盘，其存储的资源是非常丰富的，可以利用百度网盘找到一些破解软件、PDF书籍和电影资源等等。由于百度网盘自带</description>
+    </item>
+    
+  </channel>
+</rss>

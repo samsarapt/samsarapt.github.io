@@ -2,39 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>二年级计算机知识 on pt&#39;s blog</title>
-    <link>https://ptchen.online/categories/%E4%BA%8C%E5%B9%B4%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86/</link>
+    <link>https://ptchen.com/categories/%E4%BA%8C%E5%B9%B4%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86/</link>
     <description>Recent content in 二年级计算机知识 on pt&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Apr 2020 13:42:54 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 23:12:54 +0800</lastBuildDate>
     
-	<atom:link href="https://ptchen.online/categories/%E4%BA%8C%E5%B9%B4%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ptchen.com/categories/%E4%BA%8C%E5%B9%B4%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>关于百度网盘的一些小技巧</title>
+      <link>https://ptchen.com/2020-04-11-aboutbaidupan/</link>
+      <pubDate>Sat, 11 Apr 2020 23:12:54 +0800</pubDate>
+      
+      <guid>https://ptchen.com/2020-04-11-aboutbaidupan/</guid>
+      <description>0x01 获取链接 百度网盘作为国内第一大网盘，其存储的资源是非常丰富的，可以利用百度网盘找到一些破解软件、PDF书籍和电影资源等等。由于百度网盘自带</description>
+    </item>
+    
+    <item>
       <title>下载百度文库的常见姿势</title>
-      <link>https://ptchen.online/2020-04-07-free2baiduwenku/</link>
+      <link>https://ptchen.com/2020-04-07-free2baiduwenku/</link>
       <pubDate>Tue, 07 Apr 2020 13:42:54 +0800</pubDate>
       
-      <guid>https://ptchen.online/2020-04-07-free2baiduwenku/</guid>
+      <guid>https://ptchen.com/2020-04-07-free2baiduwenku/</guid>
       <description>0x00 前言 之前经常会有小伙伴过来问我百度文库的文档怎么白嫖，不过要求都不尽相同，方法自然也对应的有所不同，今天就在这里把常见的几种办法都介绍一下</description>
     </item>
     
     <item>
       <title>图片压缩的常见方式</title>
-      <link>https://ptchen.online/2020-04-06-imgcompression/</link>
+      <link>https://ptchen.com/2020-04-06-imgcompression/</link>
       <pubDate>Mon, 06 Apr 2020 09:42:54 +0800</pubDate>
       
-      <guid>https://ptchen.online/2020-04-06-imgcompression/</guid>
+      <guid>https://ptchen.com/2020-04-06-imgcompression/</guid>
       <description>0x01 压缩图片N个理由 云存储相关 现在的本地硬盘容量基本已经十分廉价了，但是云存储的费用还是有点小贵。压缩图片可以节约我们的云存储空间，以及减少每</description>
     </item>
     
     <item>
       <title>Windows / MacOS下虚拟机搭建</title>
-      <link>https://ptchen.online/2020-03-23-virtualmachine/</link>
+      <link>https://ptchen.com/2020-03-23-virtualmachine/</link>
       <pubDate>Mon, 23 Mar 2020 18:57:24 +0800</pubDate>
       
-      <guid>https://ptchen.online/2020-03-23-virtualmachine/</guid>
+      <guid>https://ptchen.com/2020-03-23-virtualmachine/</guid>
       <description>0x00 前言 什么是虚拟机 虚拟机，顾名思义就是虚拟出来的机器 （废话）。当然这么说不太准确，因为并不是真正的虚拟出来一台新的电脑，确切一点应该是虚拟出</description>
     </item>
     

@@ -1,18 +1,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>pt&#39;s blog | pt&#39;s blog</title>
-        <link>https://ptchen.online/</link>
+        <link>https://ptchen.com/</link>
         <description>pt&#39;s blog | pt&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2020 12:18:24 &#43;0800</lastBuildDate><atom:link href="https://ptchen.online/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2020 12:18:24 &#43;0800</lastBuildDate><atom:link href="https://ptchen.com/" rel="self" type="application/rss+xml" /><item>
                 <title>Posts</title>
-                <link>https://ptchen.online/posts/</link>
-                <pubDate>Tue, 07 Apr 2020 13:42:54 &#43;0800</pubDate><guid>https://ptchen.online/posts/</guid>
+                <link>https://ptchen.com/posts/</link>
+                <pubDate>Sat, 11 Apr 2020 23:12:54 &#43;0800</pubDate><guid>https://ptchen.com/posts/</guid>
                 <description></description>
             </item><item>
                 <title>Changelog</title>
-                <link>https://ptchen.online/changelog/</link>
-                <pubDate>Tue, 24 Mar 2020 12:18:24 &#43;0800</pubDate><guid>https://ptchen.online/changelog/</guid>
-                <description>&lt;h2 id=&#34;2020-03-28&#34;&gt;2020-03-28&lt;/h2&gt;
+                <link>https://ptchen.com/changelog/</link>
+                <pubDate>Tue, 24 Mar 2020 12:18:24 &#43;0800</pubDate><guid>https://ptchen.com/changelog/</guid>
+                <description>&lt;h2 id=&#34;2020-04-16&#34;&gt;2020-04-16&lt;/h2&gt;
+&lt;table style=&#34;width:80%;&#34;&gt;
+    &lt;tr align=&#34;center&#34;&gt;
+        &lt;td rowspan=&#34;2&#34;&gt;Features&lt;/td&gt;
+        &lt;td&gt;ICP备案--闽ICP备20006458号&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr align=&#34;center&#34;&gt;
+        &lt;td&gt;不使用&amp;lt;iframe&amp;gt;标签，实现内嵌视频&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr align=&#34;center&#34;&gt;
+        &lt;td rowspan=&#34;3&#34;&gt;Changed&lt;/td&gt;
+        &lt;td&gt;域名更换为 ptchen.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr align=&#34;center&#34;&gt;
+        &lt;td&gt;图床更换为腾讯云COS&lt;/td&gt;
+    &lt;/tr&gt;
+     &lt;tr align=&#34;center&#34;&gt;
+        &lt;td&gt;国内站点托管至腾讯云成都机房&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2020-03-28&#34;&gt;2020-03-28&lt;/h2&gt;
 &lt;table style=&#34;width:80%;&#34;&gt;
     &lt;tr align=&#34;center&#34;&gt;
         &lt;td rowspan=&#34;2&#34;&gt;Features&lt;/td&gt;
@@ -72,8 +92,8 @@
 </description>
             </item><item>
                 <title>Something About</title>
-                <link>https://ptchen.online/about/</link>
-                <pubDate>Thu, 19 Mar 2020 12:18:24 &#43;0800</pubDate><guid>https://ptchen.online/about/</guid>
+                <link>https://ptchen.com/about/</link>
+                <pubDate>Thu, 19 Mar 2020 12:18:24 &#43;0800</pubDate><guid>https://ptchen.com/about/</guid>
                 <description>&lt;h3 id=&#34;about-me&#34;&gt;About me&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;

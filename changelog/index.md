@@ -1,6 +1,32 @@
 # Changelog
 
 
+## 2020-04-16
+
+<table style="width:80%;">
+    <tr align="center">
+        <td rowspan="2">Features</td>
+        <td>ICP备案--闽ICP备20006458号</td>
+    </tr>
+    <tr align="center">
+        <td>不使用&lt;iframe&gt;标签，实现内嵌视频</td>
+    </tr>
+     <tr align="center">
+        <td rowspan="3">Changed</td>
+        <td>域名更换为 ptchen.com</td>
+    </tr>
+    <tr align="center">
+        <td>图床更换为腾讯云COS</td>
+    </tr>
+     <tr align="center">
+        <td>国内站点托管至腾讯云成都机房</td>
+    </tr>
+</table>
+
+
+
+
+
 ## 2020-03-28
 
 <table style="width:80%;">

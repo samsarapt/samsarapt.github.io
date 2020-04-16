@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>图片处理 on pt&#39;s blog</title>
-    <link>https://ptchen.online/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/</link>
+    <link>https://ptchen.com/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/</link>
     <description>Recent content in 图片处理 on pt&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 06 Apr 2020 09:42:54 +0800</lastBuildDate>
     
-	<atom:link href="https://ptchen.online/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ptchen.com/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>图片压缩的常见方式</title>
-      <link>https://ptchen.online/2020-04-06-imgcompression/</link>
+      <link>https://ptchen.com/2020-04-06-imgcompression/</link>
       <pubDate>Mon, 06 Apr 2020 09:42:54 +0800</pubDate>
       
-      <guid>https://ptchen.online/2020-04-06-imgcompression/</guid>
+      <guid>https://ptchen.com/2020-04-06-imgcompression/</guid>
       <description>0x01 压缩图片N个理由 云存储相关 现在的本地硬盘容量基本已经十分廉价了，但是云存储的费用还是有点小贵。压缩图片可以节约我们的云存储空间，以及减少每</description>
     </item>
     
