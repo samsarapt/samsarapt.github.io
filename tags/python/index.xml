@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on pt&#39;s blog</title>
+    <link>https://ptchen.com/tags/python/</link>
+    <description>Recent content in Python on pt&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 28 Apr 2020 10:42:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://ptchen.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python-自动生成每日海报</title>
+      <link>https://ptchen.com/2020-04-28-dailyposter/</link>
+      <pubDate>Tue, 28 Apr 2020 10:42:54 +0800</pubDate>
+      
+      <guid>https://ptchen.com/2020-04-28-dailyposter/</guid>
+      <description>0x00 前言 一个小伙伴说他需要帮一个品牌做每日海报，就是把一张背景图加上当日的时间信息、品牌信息和一句每日语录再导出，天天用PS作图很烦躁，问我有</description>
+    </item>
+    
+  </channel>
+</rss>
