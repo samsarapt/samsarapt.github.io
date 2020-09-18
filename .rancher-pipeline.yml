@@ -1,0 +1,27 @@
+stages:
+- name: Build & Publish
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: my-image/blog:${CICD_EXECUTION_SEQUENCE}
+      pushRemote: true
+      registry: ccr.ccs.tencentyun.com
+- name: Deploy
+  steps:
+  - runScriptConfig:
+      image: nginx
+      shellScript: |-
+        curl -k -u ${TOKEN} \
+        -X PUT \
+        -H 'Accept: application/json' \
+        -H 'Content-Type: application/json' \
+        -d '{"containers":[{"image":"ccr.ccs.tencentyun.com/my-image/blog:'${CICD_EXECUTION_SEQUENCE}'","name":"blog"}]}' \
+        "${DEPLOYMENT_API}"
+    envFrom:
+    - sourceName: token
+      sourceKey: TOKEN
+    - sourceName: blog
+      sourceKey: DEPLOYMENT_API
+timeout: 60
+notification: {}
